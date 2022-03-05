@@ -1129,6 +1129,7 @@ ul.social-buttons li a:active {
 
 .arrow-icon {
     color: white;
+    font-size: 70px !important;
 }
 
 .lang-menu {
@@ -1159,8 +1160,35 @@ ul.social-buttons li a:active {
     margin: 0;
 }
 
+.carouselTxt {
+    background-color: #00000054;
+    border-radius: 10px;
+    text-transform: unset !important;
+    line-height: normal !important;
+    width: fit-content;
+    margin: auto;
+}
+
+.carouselP {
+    background-color: #00000054;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 0px !important;
+    padding: 5px;
+}
+
+.my-navbar {
+    background-color: #00000026;
+    padding: unset;
+}
+
 @media (max-width: 900px) {
     .logo {
         max-width: 65%;
+    }
+
+    .my-navbar {
+        background-color: #000000ab;
     }
 }

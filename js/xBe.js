@@ -49,7 +49,7 @@ $(function () {
 
 
         $('#myCarousel-one').carousel({
-            interval: 9000, //changes the speed
+            interval: 150000, //changes the speed
             keyboard: false,
         })
 
