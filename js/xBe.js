@@ -8,6 +8,8 @@
 $(function () {
     'use strict';
 
+    let isMenuOpen = false;
+
     function deviceType() {
         const ua = navigator.userAgent;
         if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
@@ -23,7 +25,7 @@ $(function () {
     $('a.page-scroll').bind('click', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $($anchor.attr('href')).offset().top - 60
         }, 1000, 'easeInOutExpo');
         event.preventDefault();
     });
@@ -37,6 +39,8 @@ $(function () {
         } else {
             $('.scroll-up').fadeOut();
         }
+        if (isMenuOpen)
+            $('.navbar-toggle:visible').click();
     });
 
 
@@ -48,6 +52,10 @@ $(function () {
     // Closes the Responsive Menu on Menu Item Click
     $('.navbar-collapse ul li a').click(function () {
         $('.navbar-toggle:visible').click();
+    });
+
+    $('.navbar-toggle').click(function () {
+        isMenuOpen = !isMenuOpen;
     });
 
 
