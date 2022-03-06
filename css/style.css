@@ -490,7 +490,7 @@ img.slider-image {
     height: 100%;
     top: 0;
     left: 0;
-    opacity: 0.3;
+    opacity: 0.2;
     position: absolute;
     width: 100%;
 }
@@ -1183,12 +1183,39 @@ ul.social-buttons li a:active {
     padding: unset;
 }
 
+.about-style {
+    text-align: left !important;
+}
+
 @media (max-width: 900px) {
     .logo {
         max-width: 65%;
     }
 
     .my-navbar {
-        background-color: #000000ab;
+        background-color: #000000;
+    }
+
+    .carousel-style {
+        margin-top: 50px;
+        height: 220px;
+    }
+
+    .carouselTxt {
+        font-size: 22px !important;
+    }
+
+    .arrow-icon {
+        color: white;
+        font-size: 30px !important;
+    }
+
+    .my-col-12 {
+        padding-left: 0;
+    }
+
+    .my-row {
+        margin-right: unset;
+        margin-left: -30px;
     }
 }

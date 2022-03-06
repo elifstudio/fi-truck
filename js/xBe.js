@@ -8,6 +8,16 @@
 $(function () {
     'use strict';
 
+    function deviceType() {
+        const ua = navigator.userAgent;
+        if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+            return "tablet";
+        } else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+            return "mobile";
+        }
+        return "desktop";
+    };
+
     // Back to top smooth scroll
 
     $('a.page-scroll').bind('click', function (event) {
@@ -49,7 +59,7 @@ $(function () {
 
 
         $('#myCarousel-one').carousel({
-            interval: 150000, //changes the speed
+            interval: 5000, //changes the speed
             keyboard: false,
         })
 
@@ -75,6 +85,13 @@ $(function () {
             keyboard: false,
         })
 
+        if (deviceType() == "desktop") {
+            $('.section-heading, .section-subheading').each(function () {
+                $(this).removeClass('animated');
+                $(this).removeClass('fadeInUp');
+            });
+        }
+
     });
 
     /* Animated Titles of Sections*/
@@ -86,7 +103,7 @@ $(function () {
         var elemTop = $(elem).offset().top;
         var elemBottom = elemTop + $(elem).height();
 
-        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+        return ((elemBottom <= docViewBottom + 200) && (elemTop >= docViewTop));
     }
 
     $(window).scroll(function () {
