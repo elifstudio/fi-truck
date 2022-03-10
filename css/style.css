@@ -1241,11 +1241,9 @@ Contact
 }
 
 #contact-us h3 {
-    font-size: 1.8em;
     color: #484f58;
     position: relative;
     margin: 1em 0 1.4em;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 .content-address {
@@ -1254,13 +1252,13 @@ Contact
     padding: 15px;
 }
 
-address {
-    margin-top: 3em;
-}
-
 address div {
     position: relative;
     margin-top: 20px;
+}
+
+address span {
+    font-weight: bold;
 }
 
 address i {
