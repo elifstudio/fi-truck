@@ -992,7 +992,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 0;
+    z-index: 0 !important;
     position: relative !important;
     bottom: 0px;
     width: 100%;
@@ -1218,4 +1218,68 @@ ul.social-buttons li a:active {
         margin-right: unset;
         margin-left: -30px;
     }
+}
+
+/* 
+---------------------------------------------
+
+Contact
+--------------------------------------------- 
+*/
+#contact-us {
+    margin-bottom: 30px !important;
+    background-color: #f1f1f1;
+}
+
+#contact-us h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+#contact-us .address h3 {
+    margin-top: 0;
+}
+
+#contact-us h3 {
+    font-size: 1.8em;
+    color: #484f58;
+    position: relative;
+    margin: 1em 0 1.4em;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.content-address {
+    width: fit-content;
+    margin: auto;
+    padding: 15px;
+}
+
+address {
+    margin-top: 3em;
+}
+
+address div {
+    position: relative;
+    margin-top: 20px;
+}
+
+address i {
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+
+.box-icon {
+    border-right: 2px solid #ebebeb;
+    float: left;
+    font-size: 1.4em;
+    height: 45px;
+    line-height: 40px;
+    margin: 0 20px 0 0;
+    width: 40px;
+}
+
+.box-icon i {
+    line-height: 45px;
+    color: #16a085;
 }
