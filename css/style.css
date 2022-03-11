@@ -688,11 +688,7 @@ section h3.section-subheading {
     color: #222222;
 }
 
-@media (min-width:768px) {
-    section {
-        padding: 80px 0
-    }
-}
+@media (min-width:768px) {}
 
 @media (max-width:480px) {
     section h2.section-heading {
@@ -1187,6 +1183,35 @@ ul.social-buttons li a:active {
     text-align: left !important;
 }
 
+.new-product-row {
+    padding: 80px;
+    padding-top: 30px;
+}
+
+.new-product-col {
+    text-align: center;
+    margin: auto;
+}
+
+.new-product-img {
+    border-style: solid;
+    border-width: thin;
+    margin-top: 10px;
+}
+
+.new-product-read {
+    font-size: larger;
+}
+
+.new-product-text {
+    width: fit-content;
+    margin: auto;
+}
+
+.new-product-name {
+    text-align: center;
+}
+
 @media (max-width: 900px) {
     .logo {
         max-width: 65%;
@@ -1217,6 +1242,15 @@ ul.social-buttons li a:active {
     .my-row {
         margin-right: unset;
         margin-left: -30px;
+    }
+
+    .new-product-row {
+        padding: 40px;
+        padding-top: 10px;
+    }
+
+    .myCarousel-new-product {
+        height: 550px;
     }
 }
 

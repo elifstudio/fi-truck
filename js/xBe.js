@@ -25,7 +25,7 @@ $(function () {
     $('a.page-scroll').bind('click', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - 60
+            scrollTop: $($anchor.attr('href')).offset().top - 85
         }, 1000, 'easeInOutExpo');
         event.preventDefault();
     });
@@ -75,7 +75,7 @@ $(function () {
         //Team carousel
 
         $('#myCarousel-two').carousel({
-            interval: 4000, //changes the speed
+            interval: 40000, //changes the speed
             keyboard: false,
         })
 
