@@ -1220,6 +1220,10 @@ ul.social-buttons li a:active {
     color: #555 !important;
 }
 
+#menu-product-active {
+    color: #3bbaf9 !important;
+}
+
 @media (max-width: 900px) {
     .logo {
         max-width: 65%;
@@ -1264,6 +1268,7 @@ ul.social-buttons li a:active {
     .menu-list a {
         color: #dbdbdb !important;
     }
+
 }
 
 /* 

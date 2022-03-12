@@ -34,6 +34,10 @@
 .product-col {
     text-align: center;
     margin: auto;
+    border-top-color: #9d9d9d;
+    border-top-style: solid;
+    border-top-width: thin;
+    margin-top: 5px;
 }
 
 .product-code {
@@ -44,11 +48,13 @@
     border-radius: 3px;
 }
 
-.product-row {
-    border-top-color: #9d9d9d;
-    border-top-style: solid;
-    border-top-width: thin;
-    margin-top: 5px;
+.more-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.more-button button {
+    width: 100px;
 }
 
 @media (max-width: 900px) {
