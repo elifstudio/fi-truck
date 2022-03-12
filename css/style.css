@@ -1212,6 +1212,14 @@ ul.social-buttons li a:active {
     text-align: center;
 }
 
+.menu-list {
+    background-color: #545656cc;
+}
+
+.menu-list a:hover {
+    color: #555 !important;
+}
+
 @media (max-width: 900px) {
     .logo {
         max-width: 65%;
@@ -1251,6 +1259,10 @@ ul.social-buttons li a:active {
 
     .myCarousel-new-product {
         height: 550px;
+    }
+
+    .menu-list a {
+        color: #dbdbdb !important;
     }
 }
 
