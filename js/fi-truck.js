@@ -75,7 +75,7 @@ $(function () {
         //Team carousel
 
         $('#myCarousel-two').carousel({
-            interval: 40000, //changes the speed
+            interval: 4000, //changes the speed
             keyboard: false,
         })
 
