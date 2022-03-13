@@ -85,12 +85,12 @@ function moreBoxProduct() {
         let fourCols = "";
         data[moreCount].data.forEach((d, i) => {
             let img1Html = '<div>\
-            <a href="img/new_products/' + d.img1 + '.jpg" data-lightbox="' + d.img1 + '">\
+            <a href="img/new_products/' + d.img1 + '.jpg" data-lightbox="box_ref">\
             <img class="product-img" src="../../img/new_products/' + d.img1 + '_thumb.jpg">\
             </a>\
         </div>';
             let img2Html = '<div>\
-            <a href="img/new_products/' + d.img2 + '.jpg" data-lightbox="' + d.img2 + '">\
+            <a href="img/new_products/' + d.img2 + '.jpg" data-lightbox="box_ref">\
             <img class="product-img" src="../../img/new_products/' + d.img2 + '_thumb.jpg">\
             </a>\
         </div>';
