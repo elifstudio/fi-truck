@@ -4,7 +4,6 @@ let data = [{
         data: [{
                 img: "100_01_025",
                 type: "Aluminium Door Hinge (Galvanized)",
-                isTwo: true,
                 info: {
                     "Galvanized": "100.01.025"
                 }
@@ -12,7 +11,6 @@ let data = [{
             {
                 img: "100_02_002",
                 type: "PUSH Handle Lock With Key Ø27 mm",
-                isTwo: true,
                 info: {
                     "Galvanized": "100.02.001",
                     "Stainless Steel": "100.02.002"
@@ -21,7 +19,6 @@ let data = [{
             {
                 img: "100_02_016",
                 type: "PUSH Handle Lock With Key Ø27 mm",
-                isTwo: true,
                 info: {
                     "Galvanized": "100.02.015",
                     "Stainless Steel": "100.02.016"
@@ -30,7 +27,6 @@ let data = [{
             {
                 img: "100_02_004",
                 type: "PUSH Handle Lock With Key Ø27 mm",
-                isTwo: true,
                 info: {
                     "Galvanized": "100.02.003",
                     "Stainless Steel": "100.02.004"
@@ -42,7 +38,6 @@ let data = [{
         data: [{
                 img: "100_02_006",
                 type: "PUSH Handle Lock With Key Ø27 mm",
-                isTwo: true,
                 info: {
                     "Galvanized": "100.02.005",
                     "Stainless Steel": "100.02.006"
@@ -51,7 +46,6 @@ let data = [{
             {
                 img: "100_02_018",
                 type: "PUSH Handle Lock With Key Ø22 mm",
-                isTwo: true,
                 info: {
                     "Galvanized": "100.02.017",
                     "Stainless Steel": "100.02.018"
@@ -60,7 +54,6 @@ let data = [{
             {
                 img: "100_02_030",
                 type: "TIR Lever KIT Ø27 mm",
-                isTwo: true,
                 info: {
                     "Galvanized": "100.02.029",
                     "Stainless Steel": "100.02.030"
@@ -69,7 +62,6 @@ let data = [{
             {
                 img: "100_02_010",
                 type: "Recessed Door Lock With Key & Padlock Ø16 mm",
-                isTwo: true,
                 info: {
                     "Galvanized": "100.02.9",
                     "Stainless Steel": "100.02.010"
@@ -89,7 +81,7 @@ function moreBoxProduct() {
                 </a>\
             </div>';
 
-            let secondImage = d.isTwo ? '<div>\
+            let secondImage = !d.isOne ? '<div>\
                 <a href="imgs/' + d.img + '_2.jpg" data-lightbox="box_ref">\
                 <img class="product-img" src="imgs/' + d.img + '_2_thumb.jpg">\
                 </a>\
