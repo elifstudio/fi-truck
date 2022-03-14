@@ -2,109 +2,115 @@ let moreCount = 0;
 
 let data = [{
         data: [{
-                img1: "slide_1_1",
-                img2: "slide_1_2",
+                img: "100_01_025",
+                type: "Aluminium Door Hinge (Galvanized)",
+                isTwo: true,
                 info: {
-                    type: "Hingle",
-                    galvan: "100.01.003",
-                    stain: "100.01.004"
+                    "Galvanized": "100.01.025"
                 }
             },
             {
-                img1: "slide_1_1",
-                img2: "slide_1_2",
+                img: "100_02_002",
+                type: "PUSH Handle Lock With Key Ø27 mm",
+                isTwo: true,
                 info: {
-                    type: "Hingle",
-                    galvan: "100.01.003",
-                    stain: "100.01.004"
+                    "Galvanized": "100.02.001",
+                    "Stainless Steel": "100.02.002"
                 }
             },
             {
-                img1: "slide_1_1",
-                img2: "slide_1_2",
+                img: "100_02_016",
+                type: "PUSH Handle Lock With Key Ø27 mm",
+                isTwo: true,
                 info: {
-                    type: "Hingle",
-                    galvan: "100.01.003",
-                    stain: "100.01.004"
+                    "Galvanized": "100.02.015",
+                    "Stainless Steel": "100.02.016"
                 }
             },
             {
-                img1: "slide_1_1",
-                img2: "slide_1_2",
+                img: "100_02_004",
+                type: "PUSH Handle Lock With Key Ø27 mm",
+                isTwo: true,
                 info: {
-                    type: "Hingle",
-                    galvan: "100.01.003",
-                    stain: "100.01.004"
+                    "Galvanized": "100.02.003",
+                    "Stainless Steel": "100.02.004"
                 }
-            }
+            },
         ]
     },
     {
         data: [{
-                img1: "slide_1_1",
-                img2: "slide_1_2",
+                img: "100_02_006",
+                type: "PUSH Handle Lock With Key Ø27 mm",
+                isTwo: true,
                 info: {
-                    type: "Hingle",
-                    galvan: "100.01.003",
-                    stain: "100.01.004"
+                    "Galvanized": "100.02.005",
+                    "Stainless Steel": "100.02.006"
                 }
             },
             {
-                img1: "slide_1_1",
-                img2: "slide_1_2",
+                img: "100_02_018",
+                type: "PUSH Handle Lock With Key Ø22 mm",
+                isTwo: true,
                 info: {
-                    type: "Hingle",
-                    galvan: "100.01.003",
-                    stain: "100.01.004"
+                    "Galvanized": "100.02.017",
+                    "Stainless Steel": "100.02.018"
                 }
             },
             {
-                img1: "slide_1_1",
-                img2: "slide_1_2",
+                img: "100_02_030",
+                type: "TIR Lever KIT Ø27 mm",
+                isTwo: true,
                 info: {
-                    type: "Hingle",
-                    galvan: "100.01.003",
-                    stain: "100.01.004"
+                    "Galvanized": "100.02.029",
+                    "Stainless Steel": "100.02.030"
                 }
             },
             {
-                img1: "slide_1_1",
-                img2: "slide_1_2",
+                img: "100_02_010",
+                type: "Recessed Door Lock With Key & Padlock Ø16 mm",
+                isTwo: true,
                 info: {
-                    type: "Hingle",
-                    galvan: "100.01.003",
-                    stain: "100.01.004"
+                    "Galvanized": "100.02.9",
+                    "Stainless Steel": "100.02.010"
                 }
-            }
+            },
         ]
-    }
+    },
 ]
 
 function moreBoxProduct() {
     if (data[moreCount]) {
         let fourCols = "";
         data[moreCount].data.forEach((d, i) => {
-            let img1Html = '<div>\
-            <a href="img/new_products/' + d.img1 + '.jpg" data-lightbox="box_ref">\
-            <img class="product-img" src="../../img/new_products/' + d.img1 + '_thumb.jpg">\
-            </a>\
-        </div>';
-            let img2Html = '<div>\
-            <a href="img/new_products/' + d.img2 + '.jpg" data-lightbox="box_ref">\
-            <img class="product-img" src="../../img/new_products/' + d.img2 + '_thumb.jpg">\
-            </a>\
-        </div>';
+            let mainImage = '<div>\
+                <a href="imgs/' + d.img + '_1.jpg" data-lightbox="box_ref">\
+                <img class="product-img" src="imgs/' + d.img + '_1_thumb.jpg">\
+                </a>\
+            </div>';
+
+            let secondImage = d.isTwo ? '<div>\
+                <a href="imgs/' + d.img + '_2.jpg" data-lightbox="box_ref">\
+                <img class="product-img" src="imgs/' + d.img + '_2_thumb.jpg">\
+                </a>\
+            </div>' : '';
+
+
+            let infos = Object.keys(d.info);
+            let infoHtml = "";
+
+
+            infos.forEach((key, i) => {
+                infoHtml += '<strong>' + key + ':</strong> ' + d.info[key] + ((i == infos.length - 1) ? '' : '<br>');
+            })
+
             let textHtml = '<div>\
             <p class="product-text">\
-                ' + d.info.type + '<br>\
+                ' + d.type + '<br>\
                 <strong class="product-code">Product Code</strong><br>\
-                <strong>Galvanized:</strong> ' + d.info.galvan + '<br>\
-                <strong>Stainless:</strong> ' + d.info.stain + '\
-            </p>\
-        </div>';
+                ' + infoHtml + '</p></div>';
 
-            let columnHtml = ' <div class="col-md-3 product-col">\
-        ' + img1Html + img2Html + textHtml + '</div>';
+            let columnHtml = ' <div class="col-md-3 product-col">' + mainImage + secondImage + textHtml + '</div>';
 
             fourCols = fourCols + columnHtml;
 
