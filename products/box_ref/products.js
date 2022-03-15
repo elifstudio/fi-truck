@@ -865,7 +865,7 @@ function moreBoxProduct() {
             let textHtml = '<div>\
             <p class="product-text">\
                 ' + d.type + '<br>\
-                ' + (d.weight ? 'al: ' + d.weight + '<br>' : '') + '\
+                ' + (d.extra ? d.extra + '<br>' : '') + '\
                 <strong class="product-code">Product Code</strong><br>\
                 ' + infoHtml + '</p></div>';
 
