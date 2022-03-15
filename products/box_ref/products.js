@@ -830,6 +830,13 @@ let data = [{
     },
 ]
 
+let productSize = 0;
+data.forEach(d => d.data.forEach(dd => productSize++));
+
+document.addEventListener("DOMContentLoaded", function (event) {
+    document.getElementById("moreCount").innerHTML = "(" + productSize + ")";
+});
+
 function moreBoxProduct() {
     if (data[moreCount]) {
         let fourCols = "";
@@ -858,6 +865,7 @@ function moreBoxProduct() {
             let textHtml = '<div>\
             <p class="product-text">\
                 ' + d.type + '<br>\
+                ' + (d.weight ? 'al: ' + d.weight + '<br>' : '') + '\
                 <strong class="product-code">Product Code</strong><br>\
                 ' + infoHtml + '</p></div>';
 
@@ -871,6 +879,9 @@ function moreBoxProduct() {
 
         el("box_ref_row").insertAdjacentHTML("beforeend", productRow);
         moreCount++;
+
+        productSize = productSize - 4;
+        document.getElementById("moreCount").innerHTML = "(" + productSize + ")";
     }
     if (!data[moreCount]) el("more-button-id").style["display"] = "none";
 
