@@ -837,7 +837,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.getElementById("moreCount").innerHTML = "(" + productSize + ")";
 });
 
-function moreBoxProduct() {
+function moreProducts() {
+    addMoreProducts();
+    addMoreProducts();
+}
+
+function addMoreProducts() {
     if (data[moreCount]) {
         let fourCols = "";
         data[moreCount].data.forEach((d, i) => {
@@ -884,7 +889,6 @@ function moreBoxProduct() {
         document.getElementById("moreCount").innerHTML = "(" + productSize + ")";
     }
     if (!data[moreCount]) el("more-button-id").style["display"] = "none";
-
 }
 
 function el(id) {
