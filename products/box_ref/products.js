@@ -372,6 +372,337 @@ let data = [{
             },
         ]
     },
+    {
+        data: [{
+                img: "100_07_007",
+                type: "T-Piece Short (Galvanized) 60mm",
+                info: {
+                    "Code": "100.07.007"
+                }
+            },
+            {
+                img: "100_07_097",
+                type: "Mechanism Of Long Range Built In Fastener",
+                info: {
+                    "Mechanism": "100.07.015",
+                    "Pocket": "100.07.005",
+                }
+            },
+            {
+                img: "100_07_012",
+                type: "Long Range Built In Fastener",
+                info: {
+                    "515mm": "100.07.002",
+                    "560mm": "100.07.004",
+                    "600mm": "100.07.006",
+                    "700mm": "100.07.008",
+                    "750mm": "100.07.010",
+                    "800mm": "100.07.012",
+                }
+            },
+            {
+                img: "100_07_109",
+                type: "Long Range Built In Fastener",
+                info: {
+                    "500mm": "100.07.099",
+                    "600mm": "100.07.101",
+                    "700mm": "100.07.103",
+                    "800mm": "100.07.105",
+                    "900mm": "100.07.107",
+                    "1000mm": "100.07.109",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_07_087",
+                type: "Dropside Pillar with Pillar Bearing & Roof Connection Part",
+                info: {
+                    "500mm": "100.07.021",
+                    "600mm": "100.07.023",
+                    "800mm": "100.07.025",
+                    "1000mm": "100.07.087",
+                }
+            },
+            {
+                img: "100_07_030",
+                type: "Pillar Bearing",
+                info: {
+                    "Galvanized": "100.07.030",
+                }
+            },
+            {
+                img: "100_07_032",
+                type: "Roof connection Part",
+                info: {
+                    "Galvanized": "100.07.032",
+                }
+            },
+            {
+                img: "100_07_017",
+                type: "Mechanism Of Long Range Built In Fastener (Galvanized)",
+                info: {
+                    "Galvanized": "100.07.017",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_07_019",
+                type: "Dropside Pillar",
+                info: {
+                    "Code": "100.07.019",
+                }
+            },
+            {
+                img: "100_07_026",
+                type: "Roof connection Part for 100.07.019",
+                info: {
+                    "Code": "100.07.026",
+                }
+            },
+            {
+                img: "100_07_028",
+                type: "Pillar Bearing for 100.07.019",
+                info: {
+                    "Code": "100.07.028",
+                }
+            },
+            {
+                img: "100_07_073",
+                type: "Side Pillar With Built In Fastener",
+                info: {
+                    "600mm": "100.07.069",
+                    "800mm": "100.07.071",
+                    "1000mm": "100.07.073",
+                    "Pocket": "100.07.034",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_07_079",
+                type: "Back Pillar",
+                info: {
+                    "600mm": "100.07.075",
+                    "800mm": "100.07.077",
+                    "1000mm": "100.07.079",
+                    "Pocket": "100.07.034",
+                }
+            },
+            {
+                img: "100_07_095",
+                type: "Front Pillar",
+                info: {
+                    "500mm": "100.07.089",
+                    "600mm": "100.07.091",
+                    "800mm": "100.07.093",
+                    "1000": "100.07.095",
+                }
+            },
+            {
+                img: "100_07_035",
+                type: "Pillar With Pocket",
+                info: {
+                    "600mm": "100.07.031",
+                    "800mm": "100.07.033",
+                    "1000mm": "100.07.035",
+                    "Pocket": "100.07.034",
+                }
+            },
+            {
+                img: "100_07_029",
+                type: "Pillar",
+                info: {
+                    "Galvanized": "100.07.029",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_07_034",
+                type: "Pillar Pocket",
+                info: {
+                    "Galvanized": "100.07.034",
+                }
+            },
+            {
+                img: "100_07_043",
+                type: "Front Pillar With Built In Fastener (Left/Right)",
+                info: {
+                    "500mm": "100.07.037",
+                    "600mm": "100.07.039",
+                    "800mm": "100.07.041",
+                    "1000mm": "100.07.043",
+                }
+            },
+            {
+                img: "100_07_051",
+                type: "Back Pillar (Left/Right)",
+                info: {
+                    "500mm": "100.07.045",
+                    "600mm": "100.07.047",
+                    "800mm": "100.07.049",
+                    "1000mm": "100.07.051",
+                }
+            },
+            {
+                img: "100_07_059",
+                type: "Back Pillar With Built In Fastener (Left/Right)",
+                info: {
+                    "500mm": "100.07.053",
+                    "600mm": "100.07.055",
+                    "800mm": "100.07.057",
+                    "1000mm": "100.07.059",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_07_067",
+                type: "Front Pillar (Left/Right)",
+                info: {
+                    "500mm": "100.07.061",
+                    "600mm": "100.07.063",
+                    "800mm": "100.07.065",
+                    "1000mm": "100.07.067",
+                }
+            },
+            {
+                img: "100_07_085",
+                type: "Back Pillar",
+                info: {
+                    "600mm": "100.07.081",
+                    "800mm": "100.07.083",
+                    "1000mm": "100.07.085",
+                    "Pillar Pocket": "100.07.034",
+                }
+            },
+            {
+                img: "100_07_027",
+                type: "Sliding Pillar",
+                info: {
+                    "": "100.07.027",
+                }
+            },
+            {
+                img: "100_08_002",
+                type: "Ratchet",
+                info: {
+                    "Ø 40mm": "100.08.001",
+                    "Ø 50mm": "100.08.002",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_08_003",
+                type: "Adaptor KIT",
+                info: {
+                    "Code": "100.08.003",
+                }
+            },
+            {
+                img: "100_08_004",
+                type: "Upper Adaptor",
+                info: {
+                    "Code": "100.08.004",
+                }
+            },
+            {
+                img: "100_08_005",
+                type: "Lower Adaptor",
+                info: {
+                    "Code": "100.08.005",
+                }
+            },
+            {
+                img: "100_08_010",
+                type: "Buckle",
+                info: {
+                    "Galvanized": "100.08.009",
+                    "Stainless Steel": "100.08.010",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_08_014",
+                type: "Assembled Buckle",
+                info: {
+                    "Galvanized": "100.08.013",
+                    "Stainless Steel": "100.08.014",
+                }
+            },
+            {
+                img: "100_08_012",
+                type: "Buckle Bracket",
+                info: {
+                    "Galvanized": "100.08.011",
+                    "Stainless Steel": "100.08.012",
+                }
+            },
+            {
+                img: "100_09_007",
+                type: "Mudguard’s Pipe (Galvanized)",
+                info: {
+                    "585mm": "100.09.001",
+                    "650mm": "100.09.003",
+                    "780mm": "100.09.005",
+                    "820mm": "100.09.007",
+                }
+            },
+            {
+                img: "100_09_015",
+                type: "Mudguard’s Pipe (Galvanized)",
+                info: {
+                    "585mm": "100.09.009",
+                    "650mm": "100.09.011",
+                    "780mm": "100.09.013",
+                    "820mm": "100.09.015",
+
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_05_007",
+                type: "Recessed Swing (Galvanized)",
+                info: {
+                    "Code": "100.05.007",
+                }
+            },
+            {
+                img: "100_05_009",
+                type: "Recessed Swing (Galvanized)",
+                info: {
+                    "Code": "100.05.009",
+                }
+            },
+            {
+                img: "100_10_001",
+                type: "Aluminium Door Lock SET (Galvanized)",
+                info: {
+                    "Galvanized": "100.10.001",
+                }
+            },
+            {
+                img: "100_09_019",
+                type: "Big Mudguard’s Clamp (Galvanized)",
+                info: {
+                    "Galvanized": "100.09.019",
+                }
+            },
+        ]
+    },
 ]
 
 function moreBoxProduct() {
