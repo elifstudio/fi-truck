@@ -703,6 +703,131 @@ let data = [{
             },
         ]
     },
+    {
+        data: [{
+                img: "104_09_271",
+                type: "Mudguard’s Clamp (Plastic)",
+                info: {
+                    "Plastic": "104.09.271",
+                }
+            },
+            {
+                img: "100_09_021",
+                type: "Small Mudguard’s Clamp (Galvanized)",
+                info: {
+                    "Galvanized": "100.09.021",
+                }
+            },
+            {
+                img: "100_09_023",
+                type: "Ladder (3 Step) (Galvanized)",
+                info: {
+                    "Galvanized": "100.09.023",
+                }
+            },
+            {
+                img: "100_09_025",
+                type: "Ladder (2 Step) (Galvanized)",
+                info: {
+                    "Galvanized": "100.09.025",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_09_027",
+                type: "Step (Galvanized)",
+                info: {
+                    "Galvanized": "100.09.027",
+                }
+            },
+            {
+                img: "100_09_031",
+                type: "Protection Bar (Galvanized)",
+                info: {
+                    "700mm": "100.09.029",
+                    "550mm": "100.09.031",
+                }
+            },
+            {
+                img: "100_06_002",
+                type: "Meat Hook (Stainless Steel)",
+                info: {
+                    "Stainless Steel": "100.06.002",
+                }
+            },
+            {
+                img: "104_02_008",
+                type: "Plastic Plug (Aluminium Door)",
+                info: {
+                    "": "104.02.008",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_12_001",
+                type: "Fixing Bracket",
+                info: {
+                    "": "100.12.001",
+                }
+            },
+            {
+                img: "100_12_002",
+                type: "Fixing Bracket",
+                info: {
+                    "": "100.12.002",
+                }
+            },
+            {
+                img: "100_12_003",
+                type: "Fixing Bracket",
+                info: {
+                    "": "100.12.003",
+                }
+            },
+            {
+                img: "100_12_004",
+                type: "Fixing Bracket",
+                info: {
+                    "": "100.12.004",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_12_005",
+                type: "Fixing Bracket",
+                info: {
+                    "": "100.12.005",
+                }
+            },
+            {
+                img: "100_12_006",
+                type: "Fixing Bracket",
+                info: {
+                    "": "100.12.006",
+                }
+            },
+            {
+                img: "100_06_005",
+                type: "Hook",
+                info: {
+                    "": "100.06.005",
+                }
+            },
+            {
+                img: "100_06_007",
+                type: "Hook",
+                info: {
+                    "": "100.06.007",
+                }
+            },
+        ]
+    },
 ]
 
 function moreBoxProduct() {
