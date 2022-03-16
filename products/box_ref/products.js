@@ -828,6 +828,207 @@ let data = [{
             },
         ]
     },
+    {
+        data: [{
+                img: "100_06_009",
+                type: "Hook",
+                info: {
+                    "": "100.06.009",
+                }
+            },
+            {
+                img: "100_06_011",
+                type: "Hook",
+                info: {
+                    "": "100.06.011",
+                }
+            },
+            {
+                img: "100_07_111",
+                type: "Side Board Spring",
+                info: {
+                    "": "100.07.111",
+                }
+            },
+            {
+                img: "100_07_113",
+                type: "Side Board Spring",
+                info: {
+                    "": "100.07.113",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_07_115",
+                type: "Side Board Spring",
+                info: {
+                    "": "100.07.115",
+                }
+            },
+            {
+                img: "100_17_001",
+                type: "Spare Wheel Carriage 335 mm",
+                info: {
+                    "": "100.17.001",
+                }
+            },
+            {
+                img: "100_17_002",
+                type: "Spare Wheel Carriage 335 mm",
+                info: {
+                    "": "100.17.002",
+                }
+            },
+            {
+                img: "100_17_003",
+                type: "Spare Wheel Carriage 225 mm",
+                info: {
+                    "": "100.17.003",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_17_004",
+                type: "Spare Wheel Carriage 335 mm",
+                info: {
+                    "": "100.17.004",
+                }
+            },
+            {
+                img: "100_17_005",
+                type: "Spare Wheel Carriage 275 mm",
+                info: {
+                    "": "100.17.005",
+                }
+            },
+            {
+                img: "100_17_006",
+                type: "Spare Wheel Carriage (Chain)",
+                info: {
+                    "": "100.17.006",
+                }
+            },
+            {
+                img: "100_17_007",
+                type: "Mechanism Of Spare Wheel Carriage",
+                info: {
+                    "": "100.17.007",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_17_008",
+                type: "Pipe Wheel Carriage",
+                info: {
+                    "": "100.17.008",
+                }
+            },
+            {
+                img: "100_05_012",
+                type: "Cargo Holder (Frigo Type)",
+                isOne: true,
+                info: {
+                    "Code": "100.05.012",
+                }
+            },
+            {
+                img: "100_05_014",
+                type: "Load Holder (Tent)",
+                isOne: true,
+                info: {
+                    "Code": "100.05.014",
+                }
+            },
+            {
+                img: "100_05_011",
+                type: "Rigging Rail L=2.5 m (Galvanized)",
+                isOne: true,
+                info: {
+                    "Galvanized": "100.05.011",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_16_002",
+                type: "Cabin Lock (Galvanized)",
+                isOne: true,
+                info: {
+                    "Left": "100.16.001",
+                    "Right": "100.16.002",
+                }
+            },
+            {
+                img: "104_16_002",
+                type: "Handle With Key For Cabin",
+                isOne: true,
+                info: {
+                    "": "104.16.002",
+                }
+            },
+            {
+                img: "104_16_003",
+                type: "Handle For Cabin Lock (Plastic)",
+                isOne: true,
+                info: {
+                    "": "104.16.003",
+                }
+            },
+            {
+                img: "100_16_015",
+                type: "Lock & Key (Galvanized)",
+                isOne: true,
+                info: {
+                    "Lock": "100.16.013",
+                    "Key": "100.16.015",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "100_16_011",
+                type: "Door Lock (Galvanized)",
+                isOne: true,
+                info: {
+                    "009": "100.16.009",
+                    "011": "100.16.011",
+                }
+            },
+            {
+                img: "100_16_007",
+                type: "Handle For Door Lock & Nut",
+                isOne: true,
+                info: {
+                    "Handle": "104.16.004",
+                    "Nut": "100.16.007",
+                }
+            },
+            {
+                img: "100_16_010",
+                type: "Handle With Key For Door Lock",
+                isOne: true,
+                info: {
+                    "": "100.16.010",
+                }
+            },
+            {
+                img: "100_16_012",
+                type: "Handle With Key For Door Lock",
+                isOne: true,
+                info: {
+                    "": "100.16.012",
+                }
+            },
+        ]
+    },
 ]
 
 let productSize = 0;
