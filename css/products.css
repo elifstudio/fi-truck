@@ -15,6 +15,10 @@
     background-color: #f1f1f1;
 }
 
+.less-product {
+    margin-bottom: 175px !important;
+}
+
 .products-dsc {
     text-align: center;
 }
