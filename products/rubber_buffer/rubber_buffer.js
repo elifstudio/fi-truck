@@ -2,225 +2,89 @@ let moreCount = 0;
 
 let data = [{
         data: [{
-                img: "102_01_008",
-                type: "PVC door profile 85 mm",
+                img: "101_01_005",
+                type: "Roller buffer",
                 info: {
-                    "": "102.01.008"
+                    "code": "101.01.005",
+                    "Packing Quantity (pcs)": 10
                 }
             },
             {
-                img: "102_01_010",
-                type: "PVC door profile 85 mm",
+                img: "101_03_006",
+                type: "Buffer (rubber)",
                 info: {
-                    "": "102.01.010",
+                    "code": "101.03.006",
+                    "Packing Quantity (pcs)": "-"
                 }
             },
             {
-                img: "102_01_011",
-                type: "PVC door profile 60 mm",
+                img: "101_03_007",
+                type: "Roller buffer",
                 info: {
-                    "": "102.01.011",
+                    "code": "101.03.007",
+                    "Packing Quantity (pcs)": "-"
                 }
             },
             {
-                img: "102_01_013",
-                type: "Profile door combined 65 mm",
+                img: "101_03_008",
+                type: "Roller buffer",
                 info: {
-                    "": "102.01.013",
+                    "code": "101.03.008",
+                    "Packing Quantity (pcs)": "-"
                 }
             },
         ]
     },
     {
         data: [{
-                img: "102_01_012",
-                type: "Rubber profiles",
-                isOne: true,
+                img: "101_03_009",
+                type: "Buffer (rubber) (длина по желанию заказчика)",
                 info: {
-                    "": "102.01.012",
+                    "code": "101.03.009",
+                    "Packing Quantity (pcs)": "-"
                 }
             },
             {
-                img: "101_04_001",
-                type: "Rubber profiles 66 mm",
-                isOne: true,
+                img: "1001_03_009",
+                type: "Buffer (rubber) (длина по желанию заказчика)",
                 info: {
-                    "": "101.04.001",
+                    "code": "101.03.009",
+                    "Packing Quantity (pcs)": "-"
                 }
             },
             {
-                img: "101_04_002",
-                type: "Rubber profiles 14 mm",
-                isOne: true,
+                img: "101_01_010",
+                type: "Buffer",
                 info: {
-                    "": "101.04.002",
+                    "code": "101.01.010",
+                    "Packing Quantity (pcs)": "-"
                 }
             },
             {
-                img: "101_04_003",
-                type: "Rubber profiles 52,6 mm",
-                isOne: true,
+                img: "101_02_009",
+                type: "Buffer",
                 info: {
-                    "": "101.04.003",
+                    "code": "101.02.009",
+                    "Packing Quantity (pcs)": "-"
                 }
             },
         ]
     },
     {
         data: [{
-                img: "101_04_004",
-                type: "Rubber profiles 80 mm",
-                isOne: true,
+                img: "101_03_010",
+                type: "Buffer (rubber)",
                 info: {
-                    "": "101.04.004",
+                    "code": "101.03.010",
+                    "Packing Quantity (pcs)": "-"
                 }
             },
             {
-                img: "101_04_005",
-                type: "Rubber profiles 65,2 mm",
-                isOne: true,
+                img: "101_03_011",
+                type: "Buffer (rubber)",
                 info: {
-                    "": "101.04.005",
-                }
-            },
-            {
-                img: "101_04_006",
-                type: "Rubber profiles 85,6 mm",
-                isOne: true,
-                info: {
-                    "": "101.04.006",
-                }
-            },
-            {
-                img: "101_04_007",
-                type: "Rubber profiles 84 mm",
-                isOne: true,
-                info: {
-                    "": "101.04.007",
-                }
-            },
-        ]
-    },
-    {
-        data: [{
-                img: "101_04_008",
-                type: "Rubber profiles 75 mm",
-                isOne: true,
-                info: {
-                    "": "101.04.008",
-                }
-            },
-            {
-                img: "101_04_009",
-                type: "Profile door (filler)",
-                isOne: true,
-                info: {
-                    "": "101.04.009",
-                }
-            },
-            {
-                img: "101_04_010",
-                type: "Profile door (filler)",
-                isOne: true,
-                info: {
-                    "": "101.04.010"
-                }
-            },
-            {
-                img: "101_04_011",
-                type: "Profile door (filler)",
-                isOne: true,
-                info: {
-                    "": "101.04.011",
-                }
-            },
-        ]
-    },
-    {
-        data: [{
-                img: "101_04_012",
-                type: "Rubber profiles 48 mm",
-                isOne: true,
-                info: {
-                    "": "101.04.012",
-                }
-            },
-            {
-                img: "101_04_016",
-                type: "Rubber profiles 36 mm",
-                isOne: true,
-                info: {
-                    "": "101.04.016",
-                }
-            },
-            {
-                img: "101_04_014",
-                type: "Rubber profiles 80 mm",
-                isOne: true,
-                info: {
-                    "": "101.04.014",
-                }
-            },
-            {
-                img: "101_04_015",
-                type: "Connection of PVC coner 2х100 mm",
-                isOne: true,
-                info: {
-                    "": "101.04.015",
-                }
-            },
-        ]
-    },
-    {
-        data: [{
-                img: "101_04_013",
-                type: "Rubber profiles 40 mm",
-                isOne: true,
-                info: {
-                    "": "101.04.013",
-                }
-            },
-            {
-                img: "101_04_017",
-                type: "Rubber Profile",
-                isOne: true,
-                info: {
-                    "": "101.04.017",
-                }
-            },
-            {
-                img: "101_04_018",
-                type: "Rubber Profile",
-                isOne: true,
-                info: {
-                    "": "101.04.018",
-                }
-            },
-            {
-                img: "101_04_019",
-                type: "Rubber Profile",
-                isOne: true,
-                info: {
-                    "": "101.04.019",
-                }
-            },
-        ]
-    },
-    {
-        data: [{
-                img: "101_04_020",
-                type: "Rubber Profile",
-                isOne: true,
-                info: {
-                    "": "101.04.020",
-                }
-            },
-            {
-                img: "101_04_021",
-                type: "Rubber Profile",
-                isOne: true,
-                info: {
-                    "": "101.04.021",
+                    "code": "101.03.011",
+                    "Packing Quantity (pcs)": "-"
                 }
             },
         ]
