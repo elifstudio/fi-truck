@@ -1,0 +1,17 @@
+.image {
+    width: 90%;
+}
+
+.text {
+    text-align: left;
+}
+
+.my-row {
+    margin-top: 10px;
+}
+
+@media (max-width: 996px) {
+    .image {
+        width: 150px;
+    }
+}
