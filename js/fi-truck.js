@@ -63,7 +63,9 @@ $(function () {
 
     $(document).ready(function () {
 
-        // Slider top 
+        lightbox.option({
+            'disableScrolling': true
+        })
 
 
         $('#myCarousel-one').carousel({

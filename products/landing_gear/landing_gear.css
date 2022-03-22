@@ -1,0 +1,20 @@
+.topic {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    border-top-style: solid;
+    border-top-width: thin;
+}
+
+.product-col {
+    border-top-color: unset;
+    border-top-style: unset;
+    border-top-width: unset;
+    margin-top: unset;
+}
+
+.my-h4 {
+    margin-top: 10px;
+    border-top-style: solid;
+    border-top-width: thin;
+    padding-top: 10px;
+}
