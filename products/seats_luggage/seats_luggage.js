@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 function moreProducts() {
     addMoreProducts();
-    addMoreProducts();
+    if (data[moreCount]) addMoreProducts();
 }
 
 function addMoreProducts() {
@@ -65,13 +65,32 @@ function addMoreProducts() {
 
         let productRow = '<div class="row">' + twoCols + '</div>';
 
-        el("box_ref_row").insertAdjacentHTML("beforeend", productRow);
+        el("product_row_id").insertAdjacentHTML("beforeend", productRow);
         moreCount++;
 
         productSize = productSize - 4;
         document.getElementById("moreCount").innerHTML = "(" + productSize + ")";
     }
-    if (!data[moreCount]) el("more-button-id").style["display"] = "none";
+    if (!data[moreCount]) {
+        el("more-button-id").style["display"] = "none";
+        let lastRow = '<div class="row" style="border-top-style:solid;border-top-width:thin;">\
+                    <h6 style="text-align:center;">Luggage racks & Air Cannels</h6>\
+                    <div class="col-md-6 my-last-col">\
+                        <a href="imgs/0.jpg" data-lightbox="16">\
+                            <img src="imgs/0_thumb.jpg">\
+                        </a>\
+                    </div>\
+                    <div class="col-md-6 text">\
+                        <strong>116.01.001</strong> Mercedes Benz Sprinter<br>\
+                        <strong>116.01.002</strong> VW Crafter (LT)<br>\
+                        <strong>116.01.003</strong> Renault Master<br>\
+                        <strong>116.01.004</strong> Fiat Ducato<br>\
+                        <strong>116.01.004</strong> Iveco Daily\
+                    </div>\
+                </div>';
+
+        el("product_row_id").insertAdjacentHTML("beforeend", lastRow);
+    }
 }
 
 function el(id) {

@@ -279,7 +279,7 @@ function addMoreProducts() {
 
         let productRow = '<div class="row">' + fourCols + '</div>';
 
-        el("box_ref_row").insertAdjacentHTML("beforeend", productRow);
+        el("product_row_id").insertAdjacentHTML("beforeend", productRow);
         moreCount++;
 
         productSize = productSize - 4;

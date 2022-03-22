@@ -10,8 +10,16 @@
     margin-top: 10px;
 }
 
+.my-last-col {
+    text-align: end;
+}
+
 @media (max-width: 996px) {
     .image {
         width: 150px;
+    }
+
+    .my-last-col {
+        text-align: center;
     }
 }
