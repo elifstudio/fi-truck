@@ -221,7 +221,7 @@ function addMoreProducts() {
             let textHtml = '<div>\
             <p class="product-text">\
                 ' + d.type + '<br>\
-                ' + (d.extra ? d.extra + '<br>' : '') + '\
+                <strong>' + (d.extra ? d.extra + '<br>' : '') + '</strong>\
                 <strong class="product-code">Product Code</strong><br>\
                 ' + infoHtml + '</p></div>';
 
