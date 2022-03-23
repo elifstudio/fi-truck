@@ -1,0 +1,9 @@
+.less-product {
+    margin-bottom: 280px !important;
+}
+
+@media (max-width: 996px) {
+    .less-product {
+        margin-bottom: 150px !important;
+    }
+}
