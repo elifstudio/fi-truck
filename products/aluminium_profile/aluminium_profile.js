@@ -2,45 +2,6 @@ let moreCount = 0;
 
 let data = [{
         data: [{
-                img: "103_01_018",
-                type: "Aluminium profiles",
-                extra: "al: 0,702 kg/m",
-                isOne: true,
-                info: {
-                    "": "103.01.018",
-                }
-            },
-            {
-                img: "103_01_020",
-                type: "Aluminium profiles",
-                extra: "al: 1,334 kg/m",
-                isOne: true,
-                info: {
-                    "": "103.01.020",
-                }
-            },
-            {
-                img: "103_01_022",
-                type: "Aluminium profiles",
-                extra: "al: 1,352 kg/m",
-                isOne: true,
-                info: {
-                    "": "103.01.022",
-                }
-            },
-            {
-                img: "103_01_024",
-                type: "Aluminium profiles",
-                extra: "al: 0,712 kg/m",
-                isOne: true,
-                info: {
-                    "": "103.01.024",
-                }
-            },
-        ]
-    },
-    {
-        data: [{
                 img: "103_01_026",
                 type: "Aluminium profiles",
                 extra: "al: 1,096 kg/m",
