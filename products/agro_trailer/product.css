@@ -1,0 +1,19 @@
+.product-col {
+    text-align: center;
+    border-style: none;
+}
+
+.panel-default {
+    height: 250px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.agro-row {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+
+.table-col {
+    margin: auto;
+}
