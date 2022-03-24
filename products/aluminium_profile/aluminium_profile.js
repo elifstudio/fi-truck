@@ -624,6 +624,212 @@ let data = [{
             },
         ]
     },
+    {
+        data: [{
+                img: "103_01_144_1",
+                type: "Aluminium profiles",
+                extra: "al: 1,023 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.144",
+                }
+            },
+            {
+                img: "103_01_146",
+                type: "Aluminium profiles",
+                extra: "al: 0,418 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.146",
+                }
+            },
+            {
+                img: "103_01_148",
+                type: "Aluminium profiles",
+                extra: "al: 0,737 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.148",
+                }
+            },
+            {
+                img: "103_01_150",
+                type: "Aluminium profiles",
+                extra: "al: 0,639 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.150",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_152",
+                type: "Aluminium profiles",
+                extra: "al: 0,629 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.152",
+                }
+            },
+            {
+                img: "103_01_154",
+                type: "Aluminium profiles",
+                extra: "al: 1,341 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.154",
+                }
+            },
+            {
+                img: "103_01_156",
+                type: "Aluminium profiles",
+                extra: "al: 0,828 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.156",
+                }
+            },
+            {
+                img: "103_01_158",
+                type: "Aluminium profiles",
+                extra: "al: 0,902 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.158",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_160",
+                type: "Aluminium profiles",
+                extra: "al: 3,416 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.160",
+                }
+            },
+            {
+                img: "103_01_162",
+                type: "Aluminium profiles",
+                extra: "al: 3,646 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.162",
+                }
+            },
+            {
+                img: "103_01_164",
+                type: "Aluminium profiles",
+                extra: "al: 3,878 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.164",
+                }
+            },
+            {
+                img: "103_01_166",
+                type: "Aluminium profiles",
+                extra: "al: 4,110 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.166",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_168",
+                type: "Aluminium profiles",
+                extra: "al: 1,341 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.168",
+                }
+            },
+            {
+                img: "103_01_174",
+                type: "Aluminium profiles",
+                extra: "al: 1,404 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.174",
+                }
+            },
+            {
+                img: "103_01_176",
+                type: "Aluminium profiles",
+                extra: "al: 0,838 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.176",
+                }
+            },
+            {
+                img: "103_01_178",
+                type: "Aluminium profiles",
+                extra: "al: 1,125 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.178",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_180",
+                type: "Aluminium profiles",
+                extra: "al: 0,580 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.180",
+                }
+            },
+            {
+                img: "103_01_182",
+                type: "Aluminium profiles",
+                extra: "al: 0,850 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.182",
+                }
+            },
+            {
+                img: "103_01_184",
+                type: "Aluminium profiles",
+                extra: "al: 2,335 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.184",
+                }
+            },
+            {
+                img: "103_01_186",
+                type: "Aluminium profiles",
+                extra: "al: 1,520 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.186",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+            img: "103_01_188",
+            type: "Aluminium profiles",
+            extra: "al: 1,180 kg/m",
+            isOne: true,
+            info: {
+                "": "103.01.188",
+            }
+        }, ]
+    },
 ]
 
 let productSize = 0;
@@ -666,7 +872,7 @@ function addMoreProducts() {
             let textHtml = '<div>\
             <p class="product-text">\
                 ' + d.type + '<br>\
-                ' + (d.extra ? d.extra + '<br>' : '') + '\
+                <strong>' + (d.extra ? d.extra + '<br>' : '') + '</strong>\
                 <strong class="product-code">Product Code</strong><br>\
                 ' + infoHtml + '</p></div>';
 
