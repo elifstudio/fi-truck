@@ -156,6 +156,474 @@ let data = [{
             },
         ]
     },
+    {
+        data: [{
+                img: "103_01_050",
+                type: "Aluminium profiles",
+                extra: "al: 2,524 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.050",
+                }
+            },
+            {
+                img: "103_01_052",
+                type: "Aluminium profiles",
+                extra: "al: 2,937 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.052",
+                }
+            },
+            {
+                img: "103_01_054",
+                type: "Aluminium profiles",
+                extra: "al: 2,934 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.054",
+                }
+            },
+            {
+                img: "103_01_056",
+                type: "Aluminium profiles",
+                extra: "al: 1,650 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.056",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_058",
+                type: "Aluminium profiles",
+                extra: "al: 2,346 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.058",
+                }
+            },
+            {
+                img: "103_01_060",
+                type: "Aluminium profiles",
+                extra: "al: 2,065 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.060",
+                }
+            },
+            {
+                img: "103_01_062",
+                type: "Aluminium profiles",
+                extra: "al: 2,000 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.062",
+                }
+            },
+            {
+                img: "103_01_064",
+                type: "Aluminium profiles",
+                extra: "al: 2,619 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.064",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_066",
+                type: "Aluminium profiles",
+                extra: "al: 8,550 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.066",
+                }
+            },
+            {
+                img: "103_01_068",
+                type: "Aluminium profiles",
+                extra: "al: 3,275 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.068",
+                }
+            },
+            {
+                img: "103_01_070",
+                type: "Aluminium profiles",
+                extra: "al: 0,713 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.070",
+                }
+            },
+            {
+                img: "103_01_072",
+                type: "Aluminium profiles",
+                extra: "al: 1,040 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.072",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_074",
+                type: "Aluminium profiles",
+                extra: "al: 1,215 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.074",
+                }
+            },
+            {
+                img: "103_01_076",
+                type: "Aluminium profiles",
+                extra: "al: 0,940 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.076",
+                }
+            },
+            {
+                img: "103_01_078",
+                type: "Aluminium profiles",
+                extra: "al: 0,237 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.078",
+                }
+            },
+            {
+                img: "103_01_080",
+                type: "Aluminium profiles",
+                extra: "al: 2,034 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.080",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_082",
+                type: "Aluminium profiles",
+                extra: "al: 2,534 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.082",
+                }
+            },
+            {
+                img: "103_01_084",
+                type: "Aluminium profiles",
+                extra: "al: 0,681 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.084",
+                }
+            },
+            {
+                img: "103_01_086",
+                type: "Aluminium profiles",
+                extra: "al: 1,716 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.086",
+                }
+            },
+            {
+                img: "103_01_088",
+                type: "Aluminium profiles",
+                extra: "al: 2,265 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.088",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_090",
+                type: "Aluminium profiles",
+                extra: "al: 2,305 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.090",
+                }
+            },
+            {
+                img: "103_01_092",
+                type: "Aluminium profiles",
+                extra: "al: 2,671 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.092",
+                }
+            },
+            {
+                img: "103_01_094",
+                type: "Aluminium profiles",
+                extra: "al: 2,853 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.094",
+                }
+            },
+            {
+                img: "103_01_096",
+                type: "Aluminium profiles",
+                extra: "al: 1,749 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.096",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_098",
+                type: "Aluminium profiles",
+                extra: "al: 0,818 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.098",
+                }
+            },
+            {
+                img: "103_01_102",
+                type: "Aluminium profiles",
+                extra: "al: 2,043 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.102",
+                }
+            },
+            {
+                img: "103_01_104",
+                type: "Aluminium profiles",
+                extra: "al: 2,714 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.104",
+                }
+            },
+            {
+                img: "103_01_106",
+                type: "Aluminium profiles",
+                extra: "al: 2,528 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.106",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_108",
+                type: "Aluminium profiles",
+                extra: "al: 2,945 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.108",
+                }
+            },
+            {
+                img: "103_01_110",
+                type: "Aluminium profiles",
+                extra: "al: 3,261 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.110",
+                }
+            },
+            {
+                img: "103_01_112",
+                type: "Aluminium profiles",
+                extra: "al: 3,461 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.112",
+                }
+            },
+            {
+                img: "103_01_114",
+                type: "Aluminium profiles",
+                extra: "al: 3,241 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.114",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_116",
+                type: "Aluminium profiles",
+                extra: "al: 1,810 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.116",
+                }
+            },
+            {
+                img: "103_01_118",
+                type: "Aluminium profiles",
+                extra: "al: 2,390 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.118",
+                }
+            },
+            {
+                img: "103_01_120",
+                type: "Aluminium profiles",
+                extra: "al: 2,080 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.120",
+                }
+            },
+            {
+                img: "103_01_122",
+                type: "Aluminium profiles",
+                extra: "al: 2,740 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.122",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_124",
+                type: "Aluminium profiles",
+                extra: "al: 1,706 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.124",
+                }
+            },
+            {
+                img: "103_01_126",
+                type: "Aluminium profiles",
+                extra: "al: 1,351 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.126",
+                }
+            },
+            {
+                img: "103_01_128",
+                type: "Aluminium profiles",
+                extra: "al: 1,733 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.128",
+                }
+            },
+            {
+                img: "103_01_130",
+                type: "Aluminium profiles",
+                extra: "al: 1,725 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.130",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_132",
+                type: "Aluminium profiles",
+                extra: "al: 1,440 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.132",
+                }
+            },
+            {
+                img: "103_01_134",
+                type: "Aluminium profiles",
+                extra: "al: 2,489 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.134",
+                }
+            },
+            {
+                img: "103_01_136",
+                type: "Aluminium profiles",
+                extra: "al: 2,236 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.136",
+                }
+            },
+            {
+                img: "103_01_138",
+                type: "Aluminium profiles",
+                extra: "al: 0,823 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.138",
+                }
+            },
+        ]
+    },
+    {
+        data: [{
+                img: "103_01_140",
+                type: "Aluminium profiles",
+                extra: "al: 2,662 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.140",
+                }
+            },
+            {
+                img: "103_01_142",
+                type: "Aluminium profiles",
+                extra: "al: 1,040 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.142",
+                }
+            },
+            {
+                img: "103_01_144",
+                type: "Aluminium profiles",
+                extra: "al: 0,607 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.144",
+                }
+            },
+            {
+                img: "103_01_146",
+                type: "Aluminium profiles",
+                extra: "al: 1,805 kg/m",
+                isOne: true,
+                info: {
+                    "": "103.01.146",
+                }
+            },
+        ]
+    },
 ]
 
 let productSize = 0;
