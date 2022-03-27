@@ -2,30 +2,27 @@ let moreCount = 0;
 
 let data = [{
     data: [{
-            img: "5",
+            img: "7",
             type: "Seats For Intercity Buses",
-            code: "115.01.005",
+            code: "115.01.007",
             info: "City Class, a passenger seat developed for all types of urban mass transport vehicles like buses, minibuses, metro, train, vessels etc.<br>\
             • It is manufactured from high quality material by injection moulding technology.<br>\
             • It is light, reliable, strong and durable.<br>\
-            • Grabhandle sectio is made of break and wear resistant PVC material.<br>\
+            • Grabhandle section is made of break and wear resistant PVC material.<br>\
             • Easy cleaning.<br>\
             • Thanks to its modular system seats can be mounted side by side as many as required<br>\
             Options:<br>\
             • Upon request, it can be padded completely or padded backrest and cushion separately."
         },
         {
-            img: "6",
-            type: "Seats For Intercity Buses",
-            code: "115.01.006",
-            info: "City Class, a passenger seat developed for all types of urban mass transport vehicles like buses, minubuses, metro, train, vessels etc.<br>\
-            • It is manufactured from high quality material by injection moulding technology.<br>\
-            • It is light, reliable, strong and durable.<br>\
-            • Grabhandle section is made of break and wear resistant PVC material.<br>\
-            • Easy cleaning.<br>\
-            • Thanks to its modular system seats can be mounted side by side as many as required.<br>\
-            Options:<br>\
-            • Upon request, it can be padded completely or padded backrest and cushion separately."
+            img: "8",
+            type: "Seats For City Buses",
+            code: "115.01.008",
+            info: "Reclining seat developed for bus, minibus and midibus as fixed type ergonomic passenger seat.<br>\
+            • Seat back accessories are integrated in ABS back cover so they don’t protrude.<br>\
+            • Foldable armrest provides passenger an easy access into the seat.<br>\
+            • Cushion and backrest foams are fire-resistant, integrated on the frame and non-deformable.<br>\
+            • Backrest and cushion frame produce as monoblock. Metal frame is light and strong."
         }
     ]
 }]
