@@ -4,9 +4,13 @@
 }
 
 .panel-default {
-    height: 250px;
+    height: 200px;
     overflow-y: auto;
     margin-top: 10px;
+}
+
+.panel-heading {
+    padding: 3px;
 }
 
 .agro-row {
