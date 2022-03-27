@@ -44,12 +44,12 @@ function getAllLangs() {
             fr: "Sur"
         },
         "products": {
-            en: "Products",
-            tr: "Ürün",
-            ru: "Продукты",
-            de: "Produkte",
-            ar: "منتجات",
-            fr: "Des produits"
+            en: "Products" + ' <span class="caret"></span>',
+            tr: "Ürün" + ' <span class="caret"></span>',
+            ru: "Продукты" + ' <span class="caret"></span>',
+            de: "Produkte" + ' <span class="caret"></span>',
+            ar: "منتجات" + ' <span class="caret"></span>',
+            fr: "Des produits" + ' <span class="caret"></span>'
         },
         "contact": {
             en: "Contact",
