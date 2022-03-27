@@ -59,11 +59,11 @@
                                 <a href="#page-top"></a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="#about">About</a>
+                                <a myLang="about" class="page-scroll" href="#about">About</a>
                             </li>
                             <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                                    aria-expanded="false">Products <span class="caret"></span></a>
+                                <a myLang="products" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
                                 <ul class="dropdown-menu menu-list">
                                     <li><a href="products/box_ref/box_ref.html">Box, Refrigerated box</a></li>
                                     <li><a href="products/external_lock/external_lock.html">External Lock Sets</a></li>
@@ -95,28 +95,28 @@
                                 </ul>
                             </li>
                             <li>
-                                <a class="page-scroll" href="#contact-us">Contact</a>
+                                <a myLang="contact" class="page-scroll" href="#contact-us">Contact</a>
                             </li>
                         </ul>
                     </div>
                     <div class="row lang-menu">
                         <ul>
-                            <li>
+                            <li onclick="setWebsiteLang('en')">
                                 <img class="lang-img" src="img/flags/united-kingdom.png">EN
                             </li>
-                            <li>
+                            <li onclick="setWebsiteLang('tr')">
                                 <img class="lang-img" src="img/flags/turkey.png">TR
                             </li>
-                            <li>
+                            <li onclick="setWebsiteLang('ru')">
                                 <img class="lang-img" src="img/flags/russia.png">RU
                             </li>
-                            <li>
+                            <li onclick="setWebsiteLang('de')">
                                 <img class="lang-img" src="img/flags/germany.png">DE
                             </li>
-                            <li>
+                            <li onclick="setWebsiteLang('ar')">
                                 <img class="lang-img" src="img/flags/saudi-arabia.png">AR
                             </li>
-                            <li>
+                            <li onclick="setWebsiteLang('fr')">
                                 <img class="lang-img" src="img/flags/france.png">FR
                             </li>
                         </ul>
@@ -472,6 +472,9 @@
     <script src="js/jquery.easing.min.js"></script>
 
     <script src="js/lightbox.min.js"></script>
+
+    <!-- Languages -->
+    <script src="js/lang.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/fi-truck.js"></script>
