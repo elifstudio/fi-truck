@@ -37,8 +37,8 @@ function setLanguage(lang) {
 // language translations
 function getAllLangs() {
 
-    var langs = {
-        // Main page
+    var mainLangs = {
+        // Navbar menu
         "about": {
             en: "About",
             tr: "Hakkında",
@@ -70,18 +70,14 @@ function getAllLangs() {
             de: "Hauptseite",
             ar: "الصفحة الرئيسية",
             fr: "Page d'accueil"
-        },
-        "new_products": {
-            en: "New Products",
-            tr: "Yeni Ürünler",
-            ru: "Новые Товары",
-            de: "Neue Produkte",
-            ar: "منتجات جديدة",
-            fr: "Nouveaux produits"
         }
-
     }
 
-    return langs;
+    try {
+        Object.assign(mainLangs, getPageLangs());
+    } catch (e) {}
+
+
+    return mainLangs;
 
 }
