@@ -7,12 +7,15 @@ function setWebsiteLang(lang) {
     let langKeys = Object.keys(langs);
 
     langKeys.forEach(langKey => {
-        let elem = document.querySelector("[myLang='" + langKey + "']");
-        if (elem) {
-            elem.innerHTML = langs[langKey][lang];
-            setLanguage(lang);
+        let elems = document.querySelectorAll("[myLang='" + langKey + "']");
+        if (elems.length > 0) {
+            Array.from(elems).forEach(elem => {
+                if (langs[langKey][lang])
+                    elem.innerHTML = langs[langKey][lang];
+            });
         }
     });
+    setLanguage(lang);
 }
 
 
@@ -35,6 +38,7 @@ function setLanguage(lang) {
 function getAllLangs() {
 
     var langs = {
+        // Main page
         "about": {
             en: "About",
             tr: "Hakkında",
@@ -53,7 +57,7 @@ function getAllLangs() {
         },
         "contact": {
             en: "Contact",
-            tr: "İletişim",
+            tr: "Iletişim",
             ru: "Контакты",
             de: "Kontakt",
             ar: "اتصل",
@@ -65,7 +69,15 @@ function getAllLangs() {
             ru: "Главная",
             de: "Hauptseite",
             ar: "الصفحة الرئيسية",
-            fr: "Ana Sayfa"
+            fr: "Page d'accueil"
+        },
+        "new_products": {
+            en: "New Products",
+            tr: "Yeni Ürünler",
+            ru: "Новые Товары",
+            de: "Neue Produkte",
+            ar: "منتجات جديدة",
+            fr: "Nouveaux produits"
         }
 
     }
