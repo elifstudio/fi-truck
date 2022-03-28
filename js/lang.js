@@ -54,13 +54,13 @@ function getAllLangs() {
         "contact": {
             en: "Contact",
             tr: "İletişim",
-            ru: "Контакт",
+            ru: "Контакты",
             de: "Kontakt",
             ar: "اتصل",
             fr: "Contact"
         },
         "home": {
-            en: "About",
+            en: "Home",
             tr: "Ana Sayfa",
             ru: "Главная",
             de: "Hauptseite",
