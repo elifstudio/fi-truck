@@ -10,8 +10,8 @@ function setWebsiteLang(lang) {
         let elems = document.querySelectorAll("[myLang='" + langKey + "']");
         if (elems.length > 0) {
             Array.from(elems).forEach(elem => {
-                if (langs[langKey][lang])
-                    elem.innerHTML = langs[langKey][lang];
+                //if (langs[langKey][lang])
+                elem.innerHTML = langs[langKey][lang];
             });
         }
     });
