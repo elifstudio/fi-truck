@@ -16,6 +16,14 @@ function getPageLangs() {
             ar: "",
             fr: ""
         },
+        "kg_m": {
+            en: "kg/m",
+            tr: "",
+            ru: "",
+            de: "",
+            ar: "",
+            fr: ""
+        },
     }
 
     return langs;

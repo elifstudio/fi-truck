@@ -56,6 +56,14 @@ function getPageLangs() {
             ar: "",
             fr: ""
         },
+        "buffer_rubber": {
+            en: "Buffer (rubber)",
+            tr: "",
+            ru: "",
+            de: "",
+            ar: "",
+            fr: ""
+        },
     }
 
     return langs;

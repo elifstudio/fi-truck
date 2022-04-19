@@ -3,34 +3,34 @@ let moreCount = 0;
 let data = [{
         data: [{
                 img: "101_01_005",
-                type: "Roller buffer",
+                type: "<span myLang='roller_buffer'>Roller buffer</span>",
                 info: {
-                    "code": "101.01.005",
-                    "Packing Quantity (pcs)": 10
+                    "<span myLang='code'>code</span>": "101.01.005",
+                    "<span myLang='pcs'>Packing Quantity (pcs)</span>": 10
                 }
             },
             {
                 img: "101_03_006",
-                type: "Buffer (rubber)",
+                type: "<span myLang='buffer_rubber'>Buffer (rubber)</span>",
                 info: {
-                    "code": "101.03.006",
-                    "Packing Quantity (pcs)": "-"
+                    "<span myLang='code'>code</span>": "101.03.006",
+                    "<span myLang='pcs'>Packing Quantity (pcs)</span>": "-"
                 }
             },
             {
                 img: "101_03_007",
-                type: "Roller buffer",
+                type: "<span myLang='roller_buffer'>Roller buffer</span>",
                 info: {
-                    "code": "101.03.007",
-                    "Packing Quantity (pcs)": "-"
+                    "<span myLang='code'>code</span>": "101.03.007",
+                    "<span myLang='pcs'>Packing Quantity (pcs)</span>": "-"
                 }
             },
             {
                 img: "101_03_008",
-                type: "Roller buffer",
+                type: "<span myLang='roller_buffer'>Roller buffer</span>",
                 info: {
-                    "code": "101.03.008",
-                    "Packing Quantity (pcs)": "-"
+                    "<span myLang='code'>code</span>": "101.03.008",
+                    "<span myLang='pcs'>Packing Quantity (pcs)</span>": "-"
                 }
             },
         ]
@@ -38,34 +38,34 @@ let data = [{
     {
         data: [{
                 img: "101_03_009",
-                type: "Buffer (rubber) (длина по желанию заказчика)",
+                type: "<span myLang='buffer_rubber'>Buffer (rubber)</span> (длина по желанию заказчика)",
                 info: {
-                    "code": "101.03.009",
-                    "Packing Quantity (pcs)": "-"
+                    "<span myLang='code'>code</span>": "101.03.009",
+                    "<span myLang='pcs'>Packing Quantity (pcs)</span>": "-"
                 }
             },
             {
                 img: "1001_03_009",
-                type: "Buffer (rubber) (длина по желанию заказчика)",
+                type: "<span myLang='buffer_rubber'>Buffer (rubber)</span> (длина по желанию заказчика)",
                 info: {
-                    "code": "101.03.009",
-                    "Packing Quantity (pcs)": "-"
+                    "<span myLang='code'>code</span>": "101.03.009",
+                    "<span myLang='pcs'>Packing Quantity (pcs)</span>": "-"
                 }
             },
             {
                 img: "101_01_010",
-                type: "Buffer",
+                type: "<span myLang='buffer'>Buffer</span>",
                 info: {
-                    "code": "101.01.010",
-                    "Packing Quantity (pcs)": "-"
+                    "<span myLang='code'>code</span>": "101.01.010",
+                    "<span myLang='pcs'>Packing Quantity (pcs)</span>": "-"
                 }
             },
             {
                 img: "101_02_009",
-                type: "Buffer",
+                type: "<span myLang='buffer'>Buffer</span>",
                 info: {
-                    "code": "101.02.009",
-                    "Packing Quantity (pcs)": "-"
+                    "<span myLang='code'>code</span>": "101.02.009",
+                    "<span myLang='pcs'>Packing Quantity (pcs)</span>": "-"
                 }
             },
         ]
@@ -73,18 +73,18 @@ let data = [{
     {
         data: [{
                 img: "101_03_010",
-                type: "Buffer (rubber)",
+                type: "<span myLang='buffer_rubber'>Buffer (rubber)</span>",
                 info: {
-                    "code": "101.03.010",
-                    "Packing Quantity (pcs)": "-"
+                    "<span myLang='code'>code</span>": "101.03.010",
+                    "<span myLang='pcs'>Packing Quantity (pcs)</span>": "-"
                 }
             },
             {
                 img: "101_03_011",
-                type: "Buffer (rubber)",
+                type: "<span myLang='buffer_rubber'>Buffer (rubber)</span>",
                 info: {
-                    "code": "101.03.011",
-                    "Packing Quantity (pcs)": "-"
+                    "<span myLang='code'>code</span>": "101.03.011",
+                    "<span myLang='pcs'>Packing Quantity (pcs)</span>": "-"
                 }
             },
         ]
@@ -132,7 +132,7 @@ function addMoreProducts() {
             <p class="product-text">\
                 ' + d.type + '<br>\
                 ' + (d.extra ? d.extra + '<br>' : '') + '\
-                <strong class="product-code">Product Code</strong><br>\
+                <strong class="product-code" myLang="product_code">Product Code</strong><br>\
                 ' + infoHtml + '</p></div>';
 
             let columnHtml = ' <div class="col-md-3 product-col">' + mainImage + secondImage + textHtml + '</div>';
@@ -150,6 +150,8 @@ function addMoreProducts() {
         document.getElementById("moreCount").innerHTML = "(" + productSize + ")";
     }
     if (!data[moreCount]) el("more-button-id").style["display"] = "none";
+
+    setWebsiteLang(getLanguage());
 }
 
 function el(id) {

@@ -222,7 +222,7 @@ function addMoreProducts() {
             <p class="product-text">\
                 ' + d.type + '<br>\
                 <strong>' + (d.extra ? d.extra + '<br>' : '') + '</strong>\
-                <strong class="product-code">Product Code</strong><br>\
+                <strong class="product-code" myLang="product_code">Product Code</strong><br>\
                 ' + infoHtml + '</p></div>';
 
             let columnHtml = ' <div class="col-md-3 product-col">' + mainImage + secondImage + textHtml + '</div>';
@@ -240,6 +240,8 @@ function addMoreProducts() {
         document.getElementById("moreCount").innerHTML = "(" + productSize + ")";
     }
     if (!data[moreCount]) el("more-button-id").style["display"] = "none";
+
+    setWebsiteLang(getLanguage());
 }
 
 function el(id) {

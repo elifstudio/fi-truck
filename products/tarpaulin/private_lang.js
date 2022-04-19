@@ -1,95 +1,111 @@
 function getPageLangs() {
     var langs = {
-        "landing_king": {
-            en: "LANDING GEARS, KING PIN, CONTAINER TWIST LOCKS",
+        "tarpaulin": {
+            en: "Tarpaulin",
             tr: "",
             ru: "",
             de: "",
             ar: "",
             fr: ""
         },
-        "landing_gears": {
-            en: "LANDING GEARS",
+        "tarpaulin_1": {
+            en: "Tarpaulin and other fabrics PVC",
             tr: "",
             ru: "",
             de: "",
             ar: "",
             fr: ""
         },
-        "king_pins": {
-            en: "KING PINS",
+        "tarpaulin_2": {
+            en: "We offer materials for awnings and tents production companies Sioen and Hanwha.",
             tr: "",
             ru: "",
             de: "",
             ar: "",
             fr: ""
         },
-        "king_pin": {
-            en: "King Pin",
+        "tarpaulin_3": {
+            en: "PVC awning fabric used",
             tr: "",
             ru: "",
             de: "",
             ar: "",
             fr: ""
         },
-        "product_code": {
-            en: "Product Code",
+        "t_1": {
+            en: "For travel and aatomobilnyh awnings",
             tr: "",
             ru: "",
             de: "",
             ar: "",
             fr: ""
         },
-        "base_thickness": {
-            en: "Base thickness",
+        "t_2": {
+            en: "For tensile structures , for example, temporary stages and pavilions",
             tr: "",
             ru: "",
             de: "",
             ar: "",
             fr: ""
         },
-        "diameter": {
-            en: "Diameter",
+        "t_3": {
+            en: "For automotive and suburban shelters",
             tr: "",
             ru: "",
             de: "",
             ar: "",
             fr: ""
         },
-        "twist_locks": {
-            en: "Twist Locks",
+        "t_4": {
+            en: "For field storage of agricultural products and building materials",
             tr: "",
             ru: "",
             de: "",
             ar: "",
             fr: ""
         },
-        "locking_container": {
-            en: "Locking mechanism of the container",
+        "t_5": {
+            en: "For canopies over work areas",
             tr: "",
             ru: "",
             de: "",
             ar: "",
             fr: ""
         },
-        "landing_gears_majestic": {
-            en: "Landing gears - series MAJESTIC",
+        "t_6": {
+            en: "A reliable quality waterproofing",
             tr: "",
             ru: "",
             de: "",
             ar: "",
             fr: ""
         },
-        "landing_gears_majestic_dsc": {
-            en: "Combined base, base with ball mechanism, semicircular base, base wheel, flat base, flat base with low bracket",
+        "t_7": {
+            en: "For protection from rain and snow unfinished buildings : unmounted roof, window frames, etc.",
             tr: "",
             ru: "",
             de: "",
             ar: "",
             fr: ""
         },
-        "landing_gears_cls": {
-            en: "Landing gears - series CLS 110",
+        "t_8": {
+            en: "The construction of temporary hangars and warehouses",
+            tr: "",
+            ru: "",
+            de: "",
+            ar: "",
+            fr: ""
+        },
+        "t_9": {
+            en: "or tented wagons , trucks, boats , pools, etc.",
+            tr: "",
+            ru: "",
+            de: "",
+            ar: "",
+            fr: ""
+        },
+        "t_10": {
+            en: "Camping trips",
             tr: "",
             ru: "",
             de: "",

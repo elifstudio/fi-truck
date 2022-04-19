@@ -3,8 +3,8 @@ let moreCount = 0;
 let data = [{
         data: [{
                 img: "103_01_026",
-                type: "Aluminium profiles",
-                extra: "al: 1,096 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,096 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.026",
@@ -12,8 +12,8 @@ let data = [{
             },
             {
                 img: "103_01_028",
-                type: "Aluminium profiles",
-                extra: "al: 0,665 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,665 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.028",
@@ -21,8 +21,8 @@ let data = [{
             },
             {
                 img: "103_01_030",
-                type: "Aluminium profiles",
-                extra: "al: 0,672 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,672 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.030",
@@ -30,8 +30,8 @@ let data = [{
             },
             {
                 img: "103_01_032",
-                type: "Aluminium profiles",
-                extra: "al: 1,236 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,236 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.032",
@@ -42,8 +42,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_034",
-                type: "Aluminium profiles",
-                extra: "al: 2,534 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,534 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.034",
@@ -51,8 +51,8 @@ let data = [{
             },
             {
                 img: "103_01_036",
-                type: "Aluminium profiles",
-                extra: "al: 1,931 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,931 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.036",
@@ -60,8 +60,8 @@ let data = [{
             },
             {
                 img: "103_01_038",
-                type: "Aluminium profiles",
-                extra: "al: 1,994 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,994 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.038",
@@ -69,8 +69,8 @@ let data = [{
             },
             {
                 img: "103_01_040",
-                type: "Aluminium profiles",
-                extra: "al: 1,994 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,994 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.040",
@@ -81,8 +81,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_042",
-                type: "Aluminium profiles",
-                extra: "al: 2,517 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,517 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.042",
@@ -90,8 +90,8 @@ let data = [{
             },
             {
                 img: "103_01_044",
-                type: "Aluminium profiles",
-                extra: "al: 2,770 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,770 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.044",
@@ -99,8 +99,8 @@ let data = [{
             },
             {
                 img: "103_01_046",
-                type: "Aluminium profiles",
-                extra: "al: 2,926 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,926 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.046",
@@ -108,8 +108,8 @@ let data = [{
             },
             {
                 img: "103_01_048",
-                type: "Aluminium profiles",
-                extra: "al: 2,250 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,250 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.048",
@@ -120,8 +120,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_050",
-                type: "Aluminium profiles",
-                extra: "al: 2,524 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,524 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.050",
@@ -129,8 +129,8 @@ let data = [{
             },
             {
                 img: "103_01_052",
-                type: "Aluminium profiles",
-                extra: "al: 2,937 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,937 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.052",
@@ -138,8 +138,8 @@ let data = [{
             },
             {
                 img: "103_01_054",
-                type: "Aluminium profiles",
-                extra: "al: 2,934 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,934 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.054",
@@ -147,8 +147,8 @@ let data = [{
             },
             {
                 img: "103_01_056",
-                type: "Aluminium profiles",
-                extra: "al: 1,650 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,650 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.056",
@@ -159,8 +159,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_058",
-                type: "Aluminium profiles",
-                extra: "al: 2,346 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,346 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.058",
@@ -168,8 +168,8 @@ let data = [{
             },
             {
                 img: "103_01_060",
-                type: "Aluminium profiles",
-                extra: "al: 2,065 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,065 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.060",
@@ -177,8 +177,8 @@ let data = [{
             },
             {
                 img: "103_01_062",
-                type: "Aluminium profiles",
-                extra: "al: 2,000 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,000 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.062",
@@ -186,8 +186,8 @@ let data = [{
             },
             {
                 img: "103_01_064",
-                type: "Aluminium profiles",
-                extra: "al: 2,619 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,619 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.064",
@@ -198,8 +198,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_066",
-                type: "Aluminium profiles",
-                extra: "al: 8,550 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 8,550 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.066",
@@ -207,8 +207,8 @@ let data = [{
             },
             {
                 img: "103_01_068",
-                type: "Aluminium profiles",
-                extra: "al: 3,275 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 3,275 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.068",
@@ -216,8 +216,8 @@ let data = [{
             },
             {
                 img: "103_01_070",
-                type: "Aluminium profiles",
-                extra: "al: 0,713 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,713 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.070",
@@ -225,8 +225,8 @@ let data = [{
             },
             {
                 img: "103_01_072",
-                type: "Aluminium profiles",
-                extra: "al: 1,040 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,040 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.072",
@@ -237,8 +237,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_074",
-                type: "Aluminium profiles",
-                extra: "al: 1,215 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,215 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.074",
@@ -246,8 +246,8 @@ let data = [{
             },
             {
                 img: "103_01_076",
-                type: "Aluminium profiles",
-                extra: "al: 0,940 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,940 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.076",
@@ -255,8 +255,8 @@ let data = [{
             },
             {
                 img: "103_01_078",
-                type: "Aluminium profiles",
-                extra: "al: 0,237 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,237 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.078",
@@ -264,8 +264,8 @@ let data = [{
             },
             {
                 img: "103_01_080",
-                type: "Aluminium profiles",
-                extra: "al: 2,034 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,034 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.080",
@@ -276,8 +276,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_082",
-                type: "Aluminium profiles",
-                extra: "al: 2,534 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,534 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.082",
@@ -285,8 +285,8 @@ let data = [{
             },
             {
                 img: "103_01_084",
-                type: "Aluminium profiles",
-                extra: "al: 0,681 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,681 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.084",
@@ -294,8 +294,8 @@ let data = [{
             },
             {
                 img: "103_01_086",
-                type: "Aluminium profiles",
-                extra: "al: 1,716 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,716 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.086",
@@ -303,8 +303,8 @@ let data = [{
             },
             {
                 img: "103_01_088",
-                type: "Aluminium profiles",
-                extra: "al: 2,265 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,265 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.088",
@@ -315,8 +315,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_090",
-                type: "Aluminium profiles",
-                extra: "al: 2,305 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,305 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.090",
@@ -324,8 +324,8 @@ let data = [{
             },
             {
                 img: "103_01_092",
-                type: "Aluminium profiles",
-                extra: "al: 2,671 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,671 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.092",
@@ -333,8 +333,8 @@ let data = [{
             },
             {
                 img: "103_01_094",
-                type: "Aluminium profiles",
-                extra: "al: 2,853 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,853 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.094",
@@ -342,8 +342,8 @@ let data = [{
             },
             {
                 img: "103_01_096",
-                type: "Aluminium profiles",
-                extra: "al: 1,749 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,749 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.096",
@@ -354,8 +354,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_098",
-                type: "Aluminium profiles",
-                extra: "al: 0,818 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,818 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.098",
@@ -363,8 +363,8 @@ let data = [{
             },
             {
                 img: "103_01_102",
-                type: "Aluminium profiles",
-                extra: "al: 2,043 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,043 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.102",
@@ -372,8 +372,8 @@ let data = [{
             },
             {
                 img: "103_01_104",
-                type: "Aluminium profiles",
-                extra: "al: 2,714 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,714 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.104",
@@ -381,8 +381,8 @@ let data = [{
             },
             {
                 img: "103_01_106",
-                type: "Aluminium profiles",
-                extra: "al: 2,528 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,528 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.106",
@@ -393,8 +393,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_108",
-                type: "Aluminium profiles",
-                extra: "al: 2,945 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,945 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.108",
@@ -402,8 +402,8 @@ let data = [{
             },
             {
                 img: "103_01_110",
-                type: "Aluminium profiles",
-                extra: "al: 3,261 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 3,261 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.110",
@@ -411,8 +411,8 @@ let data = [{
             },
             {
                 img: "103_01_112",
-                type: "Aluminium profiles",
-                extra: "al: 3,461 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 3,461 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.112",
@@ -420,8 +420,8 @@ let data = [{
             },
             {
                 img: "103_01_114",
-                type: "Aluminium profiles",
-                extra: "al: 3,241 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 3,241 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.114",
@@ -432,8 +432,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_116",
-                type: "Aluminium profiles",
-                extra: "al: 1,810 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,810 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.116",
@@ -441,8 +441,8 @@ let data = [{
             },
             {
                 img: "103_01_118",
-                type: "Aluminium profiles",
-                extra: "al: 2,390 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,390 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.118",
@@ -450,8 +450,8 @@ let data = [{
             },
             {
                 img: "103_01_120",
-                type: "Aluminium profiles",
-                extra: "al: 2,080 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,080 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.120",
@@ -459,8 +459,8 @@ let data = [{
             },
             {
                 img: "103_01_122",
-                type: "Aluminium profiles",
-                extra: "al: 2,740 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,740 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.122",
@@ -471,8 +471,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_124",
-                type: "Aluminium profiles",
-                extra: "al: 1,706 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,706 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.124",
@@ -480,8 +480,8 @@ let data = [{
             },
             {
                 img: "103_01_126",
-                type: "Aluminium profiles",
-                extra: "al: 1,351 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,351 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.126",
@@ -489,8 +489,8 @@ let data = [{
             },
             {
                 img: "103_01_128",
-                type: "Aluminium profiles",
-                extra: "al: 1,733 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,733 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.128",
@@ -498,8 +498,8 @@ let data = [{
             },
             {
                 img: "103_01_130",
-                type: "Aluminium profiles",
-                extra: "al: 1,725 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,725 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.130",
@@ -510,8 +510,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_132",
-                type: "Aluminium profiles",
-                extra: "al: 1,440 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,440 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.132",
@@ -519,8 +519,8 @@ let data = [{
             },
             {
                 img: "103_01_134",
-                type: "Aluminium profiles",
-                extra: "al: 2,489 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,489 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.134",
@@ -528,8 +528,8 @@ let data = [{
             },
             {
                 img: "103_01_136",
-                type: "Aluminium profiles",
-                extra: "al: 2,236 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,236 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.136",
@@ -537,8 +537,8 @@ let data = [{
             },
             {
                 img: "103_01_138",
-                type: "Aluminium profiles",
-                extra: "al: 0,823 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,823 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.138",
@@ -549,8 +549,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_140",
-                type: "Aluminium profiles",
-                extra: "al: 2,662 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,662 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.140",
@@ -558,8 +558,8 @@ let data = [{
             },
             {
                 img: "103_01_142",
-                type: "Aluminium profiles",
-                extra: "al: 1,040 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,040 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.142",
@@ -567,8 +567,8 @@ let data = [{
             },
             {
                 img: "103_01_144",
-                type: "Aluminium profiles",
-                extra: "al: 0,607 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,607 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.144",
@@ -576,8 +576,8 @@ let data = [{
             },
             {
                 img: "103_01_146",
-                type: "Aluminium profiles",
-                extra: "al: 1,805 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,805 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.146",
@@ -588,8 +588,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_144_1",
-                type: "Aluminium profiles",
-                extra: "al: 1,023 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,023 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.144",
@@ -597,8 +597,8 @@ let data = [{
             },
             {
                 img: "103_01_146",
-                type: "Aluminium profiles",
-                extra: "al: 0,418 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,418 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.146",
@@ -606,8 +606,8 @@ let data = [{
             },
             {
                 img: "103_01_148",
-                type: "Aluminium profiles",
-                extra: "al: 0,737 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,737 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.148",
@@ -615,8 +615,8 @@ let data = [{
             },
             {
                 img: "103_01_150",
-                type: "Aluminium profiles",
-                extra: "al: 0,639 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,639 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.150",
@@ -627,8 +627,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_152",
-                type: "Aluminium profiles",
-                extra: "al: 0,629 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,629 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.152",
@@ -636,8 +636,8 @@ let data = [{
             },
             {
                 img: "103_01_154",
-                type: "Aluminium profiles",
-                extra: "al: 1,341 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,341 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.154",
@@ -645,8 +645,8 @@ let data = [{
             },
             {
                 img: "103_01_156",
-                type: "Aluminium profiles",
-                extra: "al: 0,828 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,828 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.156",
@@ -654,8 +654,8 @@ let data = [{
             },
             {
                 img: "103_01_158",
-                type: "Aluminium profiles",
-                extra: "al: 0,902 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,902 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.158",
@@ -666,8 +666,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_160",
-                type: "Aluminium profiles",
-                extra: "al: 3,416 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 3,416 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.160",
@@ -675,8 +675,8 @@ let data = [{
             },
             {
                 img: "103_01_162",
-                type: "Aluminium profiles",
-                extra: "al: 3,646 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 3,646 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.162",
@@ -684,8 +684,8 @@ let data = [{
             },
             {
                 img: "103_01_164",
-                type: "Aluminium profiles",
-                extra: "al: 3,878 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 3,878 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.164",
@@ -693,8 +693,8 @@ let data = [{
             },
             {
                 img: "103_01_166",
-                type: "Aluminium profiles",
-                extra: "al: 4,110 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 4,110 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.166",
@@ -705,8 +705,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_168",
-                type: "Aluminium profiles",
-                extra: "al: 1,341 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,341 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.168",
@@ -714,8 +714,8 @@ let data = [{
             },
             {
                 img: "103_01_174",
-                type: "Aluminium profiles",
-                extra: "al: 1,404 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,404 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.174",
@@ -723,8 +723,8 @@ let data = [{
             },
             {
                 img: "103_01_176",
-                type: "Aluminium profiles",
-                extra: "al: 0,838 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,838 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.176",
@@ -732,8 +732,8 @@ let data = [{
             },
             {
                 img: "103_01_178",
-                type: "Aluminium profiles",
-                extra: "al: 1,125 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,125 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.178",
@@ -744,8 +744,8 @@ let data = [{
     {
         data: [{
                 img: "103_01_180",
-                type: "Aluminium profiles",
-                extra: "al: 0,580 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,580 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.180",
@@ -753,8 +753,8 @@ let data = [{
             },
             {
                 img: "103_01_182",
-                type: "Aluminium profiles",
-                extra: "al: 0,850 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 0,850 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.182",
@@ -762,8 +762,8 @@ let data = [{
             },
             {
                 img: "103_01_184",
-                type: "Aluminium profiles",
-                extra: "al: 2,335 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 2,335 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.184",
@@ -771,8 +771,8 @@ let data = [{
             },
             {
                 img: "103_01_186",
-                type: "Aluminium profiles",
-                extra: "al: 1,520 kg/m",
+                type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+                extra: "al: 1,520 <span myLang='kg_m'>kg/m</span>",
                 isOne: true,
                 info: {
                     "": "103.01.186",
@@ -783,8 +783,8 @@ let data = [{
     {
         data: [{
             img: "103_01_188",
-            type: "Aluminium profiles",
-            extra: "al: 1,180 kg/m",
+            type: "<span myLang='aluminium_profiles'>Aluminium profiles</span>",
+            extra: "al: 1,180 <span myLang='kg_m'>kg/m</span>",
             isOne: true,
             info: {
                 "": "103.01.188",
@@ -834,7 +834,7 @@ function addMoreProducts() {
             <p class="product-text">\
                 ' + d.type + '<br>\
                 <strong>' + (d.extra ? d.extra + '<br>' : '') + '</strong>\
-                <strong class="product-code">Product Code</strong><br>\
+                <strong class="product-code" myLang="product_code">Product Code</strong><br>\
                 ' + infoHtml + '</p></div>';
 
             let columnHtml = ' <div class="col-md-3 product-col">' + mainImage + secondImage + textHtml + '</div>';
@@ -852,6 +852,8 @@ function addMoreProducts() {
         document.getElementById("moreCount").innerHTML = "(" + productSize + ")";
     }
     if (!data[moreCount]) el("more-button-id").style["display"] = "none";
+
+    setWebsiteLang(getLanguage());
 }
 
 function el(id) {

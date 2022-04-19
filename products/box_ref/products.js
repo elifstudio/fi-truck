@@ -5,31 +5,31 @@ let data = [{
                 img: "100_01_025",
                 type: "Aluminium Door Hinge (Galvanized)",
                 info: {
-                    "Galvanized": "100.01.025"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.01.025"
                 }
             },
             {
                 img: "100_02_002",
                 type: "PUSH Handle Lock With Key Ø27 mm",
                 info: {
-                    "Galvanized": "100.02.001",
-                    "Stainless Steel": "100.02.002"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.02.001",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.02.002"
                 }
             },
             {
                 img: "100_02_016",
                 type: "PUSH Handle Lock With Key Ø27 mm",
                 info: {
-                    "Galvanized": "100.02.015",
-                    "Stainless Steel": "100.02.016"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.02.015",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.02.016"
                 }
             },
             {
                 img: "100_02_004",
                 type: "PUSH Handle Lock With Key Ø27 mm",
                 info: {
-                    "Galvanized": "100.02.003",
-                    "Stainless Steel": "100.02.004"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.02.003",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.02.004"
                 }
             },
         ]
@@ -39,32 +39,32 @@ let data = [{
                 img: "100_02_006",
                 type: "PUSH Handle Lock With Key Ø27 mm",
                 info: {
-                    "Galvanized": "100.02.005",
-                    "Stainless Steel": "100.02.006"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.02.005",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.02.006"
                 }
             },
             {
                 img: "100_02_018",
                 type: "PUSH Handle Lock With Key Ø22 mm",
                 info: {
-                    "Galvanized": "100.02.017",
-                    "Stainless Steel": "100.02.018"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.02.017",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.02.018"
                 }
             },
             {
                 img: "100_02_030",
                 type: "TIR Lever KIT Ø27 mm",
                 info: {
-                    "Galvanized": "100.02.029",
-                    "Stainless Steel": "100.02.030"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.02.029",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.02.030"
                 }
             },
             {
                 img: "100_02_010",
                 type: "Recessed Door Lock With Key & Padlock Ø16 mm",
                 info: {
-                    "Galvanized": "100.02.9",
-                    "Stainless Steel": "100.02.010"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.02.9",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.02.010"
                 }
             },
         ]
@@ -74,32 +74,32 @@ let data = [{
                 img: "100_02_008",
                 type: "Recessed Door Lock With Key Ø16 mm",
                 info: {
-                    "Galvanized": "100.02.007",
-                    "Stainless Steel": "100.02.008"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.02.007",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.02.008"
                 }
             },
             {
                 img: "100_02_012",
                 type: "Small Recessed Door Lock With Key Ø16 mm",
                 info: {
-                    "Galvanized": "100.02.011",
-                    "Stainless Steel": "100.02.012"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.02.011",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.02.012"
                 }
             },
             {
                 img: "100_03_002",
                 type: "Cam & Keeper",
                 info: {
-                    "Galvanized": "100.03.001",
-                    "Stainless Steel": "100.03.002"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.03.001",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.03.002"
                 }
             },
             {
                 img: "100_02_022",
                 type: "Recessed Handle Lock With Key",
                 info: {
-                    "Galvanized": "100.02.021",
-                    "Stainless Steel": "100.02.022"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.02.021",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.02.022"
                 }
             },
         ]
@@ -109,16 +109,16 @@ let data = [{
                 img: "100_02_024",
                 type: "Recessed Handle Lock With Key",
                 info: {
-                    "Galvanized": "100.02.023",
-                    "Stainless Steel": "100.02.024"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.02.023",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.02.024"
                 }
             },
             {
                 img: "100_02_026",
                 type: "Recessed Handle Lock",
                 info: {
-                    "Galvanized": "100.02.025",
-                    "Stainless Steel": "100.02.026"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.02.025",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.02.026"
                 }
             },
             {
@@ -132,8 +132,8 @@ let data = [{
                 img: "100_02_014",
                 type: "TIR Lever KIT Ø27 mm",
                 info: {
-                    "Galvanized": "100.02.013",
-                    "Stainless Steel": "100.02.014"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.02.013",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.02.014"
                 }
             },
         ]
@@ -143,32 +143,32 @@ let data = [{
                 img: "100_04_002",
                 type: "Lever Retainer Ø27 mm",
                 info: {
-                    "Galvanized": "100.04.001",
-                    "Stainless Steel": "100.04.002"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.04.001",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.04.002"
                 }
             },
             {
                 img: "100_04_004",
                 type: "Lever Retainer Ø27 mm",
                 info: {
-                    "Galvanized": "100.04.003",
-                    "Stainless Steel": "100.04.004"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.04.003",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.04.004"
                 }
             },
             {
                 img: "100_04_006",
                 type: "Big Guide Plate Ø27 mm",
                 info: {
-                    "Galvanized": "100.04.005",
-                    "Stainless Steel": "100.04.006"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.04.005",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.04.006"
                 }
             },
             {
                 img: "100_04_008",
                 type: "Small Guide Plate Ø27 mm",
                 info: {
-                    "Galvanized": "100.04.007",
-                    "Stainless Steel": "100.04.008"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.04.007",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.04.008"
                 }
             },
         ]
@@ -178,32 +178,32 @@ let data = [{
                 img: "100_03_004",
                 type: "Cam & Keeper Ø27 mm",
                 info: {
-                    "Galvanized": "100.03.003",
-                    "Stainless Steel": "100.03.004"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.03.003",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.03.004"
                 }
             },
             {
                 img: "100_03_006",
                 type: "Cam & Keeper Ø27 mm",
                 info: {
-                    "Galvanized": "100.03.005",
-                    "Stainless Steel": "100.03.006"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.03.005",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.03.006"
                 }
             },
             {
                 img: "100_03_008",
                 type: "Big Cam & Keeper Ø27 mm",
                 info: {
-                    "Galvanized": "100.03.007",
-                    "Stainless Steel": "100.03.008"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.03.007",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.03.008"
                 }
             },
             {
                 img: "100_03_010",
                 type: "Cam & Keeper Ø22 mm",
                 info: {
-                    "Galvanized": "100.03.009",
-                    "Stainless Steel": "100.03.010"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.03.009",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.03.010"
                 }
             },
         ]
@@ -213,32 +213,32 @@ let data = [{
                 img: "100_03_012",
                 type: "Cam & Keeper Ø22 mm",
                 info: {
-                    "Galvanized": "100.03.011",
-                    "Stainless Steel": "100.03.012"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.03.011",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.03.012"
                 }
             },
             {
                 img: "100_03_014",
                 type: "Cam & Keeper Ø27 mm",
                 info: {
-                    "Galvanized": "100.03.013",
-                    "Stainless Steel": "100.03.014"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.03.013",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.03.014"
                 }
             },
             {
                 img: "100_02_020",
                 type: "TIR Lever KIT Ø22 mm",
                 info: {
-                    "Galvanized": "100.02.019",
-                    "Stainless Steel": "100.02.020"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.02.019",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.02.020"
                 }
             },
             {
                 img: "100_04_010",
                 type: "Lever Mount Ø22 mm",
                 info: {
-                    "Galvanized": "100.04.009",
-                    "Stainless Steel": "100.04.010"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.04.009",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.04.010"
                 }
             },
         ]
@@ -248,32 +248,32 @@ let data = [{
                 img: "100_04_012",
                 type: "Lever Retainer Ø22 mm",
                 info: {
-                    "Galvanized": "100.04.011",
-                    "Stainless Steel": "100.04.012"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.04.011",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.04.012"
                 }
             },
             {
                 img: "100_04_014",
                 type: "Big Guide Plate Ø22 mm",
                 info: {
-                    "Galvanized": "100.04.013",
-                    "Stainless Steel": "100.04.014"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.04.013",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.04.014"
                 }
             },
             {
                 img: "153_01_09_011",
                 type: "Big Guide Plate Ø22 mm",
                 info: {
-                    "Galvanized": "153.01.09.012",
-                    "Stainless Steel": "153.01.09.011"
+                    "<span myLang='galvanized'>Galvanized</span>": "153.01.09.012",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "153.01.09.011"
                 }
             },
             {
                 img: "100_05_002",
                 type: "Door Holder",
                 info: {
-                    "Galvanized": "100.05.001",
-                    "Stainless Steel": "100.05.002"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.05.001",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.05.002"
                 }
             },
         ]
@@ -283,28 +283,28 @@ let data = [{
                 img: "100_05_003",
                 type: "Rear Door Retainer (Galvanized)",
                 info: {
-                    "Galvanized": "100.05.003"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.05.003"
                 }
             },
             {
                 img: "100_05_005",
                 type: "Rear Door Retainer (Galvanized)",
                 info: {
-                    "Galvanized": "100.05.005",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.05.005",
                 }
             },
             {
                 img: "100_01_013",
                 type: "Sideboard Hinge (Galvanized)",
                 info: {
-                    "Galvanized": "100.01.013",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.01.013",
                 }
             },
             {
                 img: "100_01_015",
                 type: "Sideboard Hinge (Galvanized)",
                 info: {
-                    "Galvanized": "100.01.015"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.01.015"
                 }
             },
         ]
@@ -314,7 +314,7 @@ let data = [{
                 img: "100_01_017",
                 type: "Sideboard Hinge (Galvanized)",
                 info: {
-                    "Galvanized": "100.01.017"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.01.017"
                 }
             },
             {
@@ -335,7 +335,7 @@ let data = [{
                 img: "100_07_001",
                 type: "Fastener (Galvanized)",
                 info: {
-                    "Galvanized": "100.07.001"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.07.001"
                 }
             },
         ]
@@ -345,7 +345,7 @@ let data = [{
                 img: "100_07_003",
                 type: "Recessed Fastener (Galvanized)",
                 info: {
-                    "Galvanized": "100.07.003"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.07.003"
                 }
             },
             {
@@ -367,7 +367,7 @@ let data = [{
                 img: "100_07_009",
                 type: "T-Piece Long (Galvanized) 95mm",
                 info: {
-                    "Galvanized": "100.07.009"
+                    "<span myLang='galvanized'>Galvanized</span>": "100.07.009"
                 }
             },
         ]
@@ -429,21 +429,21 @@ let data = [{
                 img: "100_07_030",
                 type: "Pillar Bearing",
                 info: {
-                    "Galvanized": "100.07.030",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.07.030",
                 }
             },
             {
                 img: "100_07_032",
                 type: "Roof connection Part",
                 info: {
-                    "Galvanized": "100.07.032",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.07.032",
                 }
             },
             {
                 img: "100_07_017",
                 type: "Mechanism Of Long Range Built In Fastener (Galvanized)",
                 info: {
-                    "Galvanized": "100.07.017",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.07.017",
                 }
             },
         ]
@@ -517,7 +517,7 @@ let data = [{
                 img: "100_07_029",
                 type: "Pillar",
                 info: {
-                    "Galvanized": "100.07.029",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.07.029",
                 }
             },
         ]
@@ -527,7 +527,7 @@ let data = [{
                 img: "100_07_034",
                 type: "Pillar Pocket",
                 info: {
-                    "Galvanized": "100.07.034",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.07.034",
                 }
             },
             {
@@ -626,8 +626,8 @@ let data = [{
                 img: "100_08_010",
                 type: "Buckle",
                 info: {
-                    "Galvanized": "100.08.009",
-                    "Stainless Steel": "100.08.010",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.08.009",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.08.010",
                 }
             },
         ]
@@ -637,16 +637,16 @@ let data = [{
                 img: "100_08_014",
                 type: "Assembled Buckle",
                 info: {
-                    "Galvanized": "100.08.013",
-                    "Stainless Steel": "100.08.014",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.08.013",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.08.014",
                 }
             },
             {
                 img: "100_08_012",
                 type: "Buckle Bracket",
                 info: {
-                    "Galvanized": "100.08.011",
-                    "Stainless Steel": "100.08.012",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.08.011",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.08.012",
                 }
             },
             {
@@ -691,14 +691,14 @@ let data = [{
                 img: "100_10_001",
                 type: "Aluminium Door Lock SET (Galvanized)",
                 info: {
-                    "Galvanized": "100.10.001",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.10.001",
                 }
             },
             {
                 img: "100_09_019",
                 type: "Big Mudguard’s Clamp (Galvanized)",
                 info: {
-                    "Galvanized": "100.09.019",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.09.019",
                 }
             },
         ]
@@ -715,21 +715,21 @@ let data = [{
                 img: "100_09_021",
                 type: "Small Mudguard’s Clamp (Galvanized)",
                 info: {
-                    "Galvanized": "100.09.021",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.09.021",
                 }
             },
             {
                 img: "100_09_023",
                 type: "Ladder (3 Step) (Galvanized)",
                 info: {
-                    "Galvanized": "100.09.023",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.09.023",
                 }
             },
             {
                 img: "100_09_025",
                 type: "Ladder (2 Step) (Galvanized)",
                 info: {
-                    "Galvanized": "100.09.025",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.09.025",
                 }
             },
         ]
@@ -739,7 +739,7 @@ let data = [{
                 img: "100_09_027",
                 type: "Step (Galvanized)",
                 info: {
-                    "Galvanized": "100.09.027",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.09.027",
                 }
             },
             {
@@ -754,7 +754,7 @@ let data = [{
                 img: "100_06_002",
                 type: "Meat Hook (Stainless Steel)",
                 info: {
-                    "Stainless Steel": "100.06.002",
+                    "<span myLang='stainless_steel'>Stainless Steel</span>": "100.06.002",
                 }
             },
             {
@@ -950,7 +950,7 @@ let data = [{
                 type: "Rigging Rail L=2.5 m (Galvanized)",
                 isOne: true,
                 info: {
-                    "Galvanized": "100.05.011",
+                    "<span myLang='galvanized'>Galvanized</span>": "100.05.011",
                 }
             },
         ]
@@ -1072,7 +1072,7 @@ function addMoreProducts() {
             <p class="product-text">\
                 ' + d.type + '<br>\
                 ' + (d.extra ? d.extra + '<br>' : '') + '\
-                <strong class="product-code">Product Code</strong><br>\
+                <strong class="product-code" myLang="product_code">Product Code</strong><br>\
                 ' + infoHtml + '</p></div>';
 
             let columnHtml = ' <div class="col-md-3 product-col">' + mainImage + secondImage + textHtml + '</div>';
@@ -1090,6 +1090,8 @@ function addMoreProducts() {
         document.getElementById("moreCount").innerHTML = "(" + productSize + ")";
     }
     if (!data[moreCount]) el("more-button-id").style["display"] = "none";
+
+    setWebsiteLang(getLanguage());
 }
 
 function el(id) {

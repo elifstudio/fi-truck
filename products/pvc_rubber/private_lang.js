@@ -32,6 +32,46 @@ function getPageLangs() {
             ar: "",
             fr: ""
         },
+        "profile_door_combined": {
+            en: "Profile door combined",
+            tr: "",
+            ru: "",
+            de: "",
+            ar: "",
+            fr: ""
+        },
+        "rubber_profiles": {
+            en: "Rubber profiles",
+            tr: "",
+            ru: "",
+            de: "",
+            ar: "",
+            fr: ""
+        },
+        "profile_door_filler": {
+            en: "Profile door (filler)",
+            tr: "",
+            ru: "",
+            de: "",
+            ar: "",
+            fr: ""
+        },
+        "connection_of_PVC_coner": {
+            en: "Connection of PVC coner",
+            tr: "",
+            ru: "",
+            de: "",
+            ar: "",
+            fr: ""
+        },
+        "rubber_profile": {
+            en: "Rubber Profile",
+            tr: "",
+            ru: "",
+            de: "",
+            ar: "",
+            fr: ""
+        },
     }
 
     return langs;

@@ -48,6 +48,14 @@ function getPageLangs() {
             ar: "",
             fr: ""
         },
+        "stainless_steel": {
+            en: "Stainless Steel",
+            tr: "",
+            ru: "",
+            de: "",
+            ar: "",
+            fr: ""
+        },
         "side_door_hinge": {
             en: "Side Door Hinge",
             tr: "",
